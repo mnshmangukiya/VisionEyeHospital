@@ -1,0 +1,228 @@
+
+
+@media(max-width:1200px) {
+    #col,#coldiff{
+        width: 220px;
+        height: 260px;
+    }
+    .text8{
+        font-size: 9px;
+        margin-left: -20px;
+    }
+
+    .text9,.text10{
+        font-size: 16px;
+    }
+    .image-container img {
+        width: 267px;
+        height: 291px;   
+    }
+    .image-container img:hover {
+        width: 287px;
+        height: 311px;   
+    }
+    .welcome img{
+        width: 500px;
+    }
+    .text21,.text22,.text23{
+        font-size: 12px;
+    }
+    .blogpill{
+        width: 55%;
+    }
+}
+
+
+@media(min-width:992px) and (max-width:1441px) {
+    .navbar-nav{
+        margin-left: 20px;
+    }
+
+    .carousel-control-next2{
+        margin-left: -20px;
+    }
+}
+
+@media(max-width:992px) {
+    .book{
+        display: none;
+    }
+    .navbar-nav{
+        margin-left: 200px;
+    }
+    .hero {
+        width: 830px;
+    }
+    #img28 {
+        margin: auto;
+    }
+    .faqimg {
+        display: none;
+    }
+    .text3,
+    .text4 {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    .faqsec svg{
+        margin: auto;
+    }
+    .blogs {
+        height: auto;
+    }
+    .navbar{
+        width: 900px;
+    }
+    .carousel-control-next2{
+        margin-left: -150px;
+        margin-top: 15px;
+    }
+    .aboutus{
+        display: block;
+    }
+    .about{
+        display: none;
+    }
+    .jumbotron {
+        margin-top: 50px;
+    }
+    .facility{
+        width: 630px;
+    }
+    .number{
+        margin-top: 320px;
+    }
+    .numbertwo{
+        margin-bottom: -300px;
+        margin-right: -650px;
+    }
+    .svgone,.svgtwo{
+        display: none;
+    }
+    .text12{
+        margin-top: 50px;
+    }
+    .glimpse{
+        width: 750px;
+    }
+    .mainnumber{
+        width: 700px;
+    }
+    .team{
+        width: 700px;
+    }
+    .rating{
+        width: 700px;
+    }
+    .faqsec{
+        width: 700px;
+    }
+    .blogs{
+        width: 700px;
+    }
+    .flyer{
+        width: 700px;
+    }
+    .footer{
+        width: 900px;
+    }
+    .medical{
+        margin-top:550px;
+    }
+    .medicalimg{
+        margin-top: 0px !important;
+    }
+    .touchlorem{
+        margin-top: 450px;
+    }
+    .types{
+        margin-top: 50px;
+    }
+    .ocule{
+        margin-top: 430px;
+    }
+    .touch{
+        margin-top:-60px;
+    }
+    .blogcard{
+        width: 100%;
+    }
+    .blogpill{
+        width: 30%;
+    }
+    .relatedblog{
+        margin-top: 50px !important;
+    }
+    .appointform{
+        margin-top: 50px;
+    }
+}
+
+@media(max-width:575px) {
+    .cone{
+        width: 300px;
+    }
+    .services{
+        width: 600px;
+        margin-left: 100px;
+    }
+    .carousel-control-next2{
+        margin-left: -100px;
+    }
+    .aboutmain{
+        width: 700px;
+    }
+    .text8{
+        font-size: 8px;
+        margin-left: -20px;
+    }
+    .text9,.text10{
+        font-size: 14px;
+    }
+    .carousel-control-next3{
+        margin-left: -50px;
+    }
+    .carousel-control-prev3{
+        margin-right: -50px;
+    }
+    .team{
+        margin-left: 50px;
+    }
+    .numbertwo{
+        margin-bottom: -300px;
+        margin-right: -320px;
+    }
+    .cardclass span{
+        font-size: 18px;
+    }
+    .carousel-control-prev{
+        margin-left:10px ;
+    }
+    .carousel-control-next{
+        margin-right:50px ;
+    }
+    .accordion .accordion-item {
+        width: 400px;
+    }
+    .accordion .accordionarrow{
+        margin-left:-70px !important
+    }
+    .flyer{
+        width: 450px;
+        margin-left: 100px;
+    }
+    .relatedblogpill{
+        font-size: 10px;
+        width:60%;
+    }
+}
+
+@media(max-width:375px) {
+    .carousel-control-next3{
+        margin-left: -10px;
+    }
+    .carousel-control-prev3{
+        margin-right: 80px;
+    }
+}
