@@ -1,4 +1,4 @@
-import './assets/css/style.css'
+import './App.css'
 import './assets/css/responsive.css'
 import Header from './assets/js/Header';
 import Home from './assets/js/Home';

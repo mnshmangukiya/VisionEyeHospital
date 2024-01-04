@@ -1,4 +1,6 @@
 import React from 'react'
+import img30 from '../images/img30.png'
+import img31 from '../images/img31.png'
 import img32 from '../images/img32.png'
 import img33 from '../images/img33.png'
 import img48 from '../images/img48.png'
@@ -10,13 +12,9 @@ import img53 from '../images/img53.png'
 import img54 from '../images/img54.png'
 import img55 from '../images/img55.png'
 import img56 from '../images/img56.png'
-import img57 from '../images/img57.png'
 import img58 from '../images/img58.png'
-import img59 from '../images/img59.png'
 import img60 from '../images/img60.png'
-import img61 from '../images/img61.png'
-import img62 from '../images/img62.png'
-import img63 from '../images/img63.png'
+import img83 from '../images/img83.png'
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import { Link } from 'react-router-dom'
 
@@ -24,7 +22,7 @@ export default function Services() {
   return (
     <div>
       {/* hero section */}
-      <div class="container-fluid text-center" style={{ marginTop: 50 + 'px' }}>
+      <div class="container-fluid text-center" >
         <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="340" viewBox="0 0 1920 340" fill="none">
           <path d="M0 0H1920V260.132L0 340V0Z" fill="#F1F5F9" />
 
@@ -41,91 +39,93 @@ export default function Services() {
           </Link>
 
           <p className='text17 ' style={{ marginTop: -200 }}>
-            <img src={img32} alt="Your Image" width='' height="" style={{ marginTop: -60 }} />
+            <img src={img32} alt="Your Image" width='' height="" style={{ marginTop: -50 }} />
             Our Services
             <img src={img32} alt="Your Image" width='' height="" style={{ marginTop: 30, marginLeft: 10 }} />
           </p>
         </div>
       </div>
 
+      <img className='img-fluid position-absolute d-lg-block d-none' src={img83} alt="" width={100} height={100} style={{marginTop:0,right:0}}/>
+
       {/* services */}
-      <div className='container team' style={{ marginTop: 100 + 'px' }}>
+      <div className='container' style={{ marginTop: 100 + 'px' }}>
         <p className='text3 mx-auto d-block'><span style={{ color: '#017CC7' }}> Services </span> we provide</p>
         <p className='text4'>A cataract is a clouding of the lens inside </p>
         <svg style={{ color: '#1C2434', margin: 'auto', display: 'block', marginBottom: 50 + 'px' }} xmlns="http://www.w3.org/2000/svg" width="47" height="4" viewBox="0 0 47 4" fill="none">
           <path d="M45.5 2H1.5" stroke="#1C2434" stroke-width="3" stroke-linecap="round" />
         </svg>
-        <div class="container text-center">
-          <div class="row row-cols-3 row-gap-4">
+        <div class="container">
+          <div class="row row-cols-3 row-gap-3">
             <div class="col-lg-4 col-6">
               <div class="card rounded-4 cardservices" >
-                <img src={img48} className='ms-auto' alt="..." width={141} height={141} />
+                <img src={img48} className='ms-auto img-fluid mt-3' alt="..." width={30 + '%'} />
                 <div class="card-body">
-                  <h5 class="text7 text-start">Oculoplasty</h5>
-                  <p class="card-text">Lorem Ipsum has been the industry's standardeds dummy text ever since the 1500s, Lorem hellooes unknown printer</p>
+                  <h5 class="text32 text-start">Oculoplasty</h5>
+                  <p class="text34 text-start">Lorem Ipsum has been the industry's standardeds dummy text ever since the 1500s, Lorem hellooes unknown printer</p>
                 </div>
               </div>
             </div>
             <div class="col-lg-4 col-6">
               <div class="card rounded-4 cardservices">
-                <img src={img49} className='ms-auto' alt="..." width={141} height={141} />
+                <img src={img49} className='ms-auto img-fluid mt-3' alt="..." width={30 + '%'} />
                 <div class="card-body">
-                  <h5 class="text7 text-start">Cataract</h5>
-                  <p class="card-text">Lorem Ipsum has been the industry's standardeds dummy text ever since the 1500s, Lorem hellooes unknown printer</p>
+                  <h5 class="text32 text-start">Cataract</h5>
+                  <p class="text34">Lorem Ipsum has been the industry's standardeds dummy text ever since the 1500s, Lorem hellooes unknown printer</p>
                 </div>
               </div>
             </div>
             <div class="col-lg-4 col-6 ">
               <div class="card rounded-4 cardservices">
-                <img src={img50} className='ms-auto' alt="..." width={141} height={141} />
+                <img src={img50} className='ms-auto img-fluid mt-3' alt="..." width={30 + '%'} />
                 <div class="card-body">
-                  <h5 class="text7 text-start">Refractive Procedures</h5>
-                  <p class="card-text">Lorem Ipsum has been the industry's standardeds dummy text ever since the 1500s, Lorem hellooes unknown printer</p>
+                  <h5 class="text32 text-start mt-3">Refractive Procedures</h5>
+                  <p class="text34">Lorem Ipsum has been the industry's standardeds dummy text ever since the 1500s, Lorem hellooes unknown printer</p>
                 </div>
               </div>
             </div>
             <div class="col-lg-4 col-6">
               <div class="card rounded-4 cardservices">
-                <img src={img51} className='ms-auto' alt="..." width={141} height={141} />
+                <img src={img51} className='ms-auto img-fluid mt-3' alt="..." width={30 + '%'} />
                 <div class="card-body">
-                  <h5 class="text7 text-start">Glaucoma</h5>
-                  <p class="card-text">Lorem Ipsum has been the industry's standardeds dummy text ever since the 1500s, Lorem hellooes unknown printer</p>
+                  <h5 class="text32 text-start mt-3 mt-sm-0">Glaucoma</h5>
+                  <p class="text34">Lorem Ipsum has been the industry's standardeds dummy text ever since the 1500s, Lorem hellooes unknown printer</p>
                 </div>
               </div>
             </div>
             <div class="col-lg-4 col-6">
               <div class="card rounded-4 cardservices">
-                <img src={img52} className='ms-auto' alt="..." width={141} height={141} />
+                <img src={img52} className='ms-auto img-fluid mt-3' alt="..." width={30 + '%'} />
                 <div class="card-body">
-                  <h5 class="text7 text-start">Retina</h5>
-                  <p class="card-text">Lorem Ipsum has been the industry's standardeds dummy text ever since the 1500s, Lorem hellooes unknown printer</p>
+                  <h5 class="text32 text-start">Retina</h5>
+                  <p class="text34">Lorem Ipsum has been the industry's standardeds dummy text ever since the 1500s, Lorem hellooes unknown printer</p>
                 </div>
               </div>
             </div>
             <div class="col-lg-4 col-6">
               <div class="card rounded-4 cardservices">
-                <img src={img53} className='ms-auto' alt="..." width={141} height={141} />
+                <img src={img53} className='ms-auto img-fluid mt-3' alt="..." width={30 + '%'} />
                 <div class="card-body">
-                  <h5 class="text7 text-start">Pediatric</h5>
-                  <p class="card-text">Lorem Ipsum has been the industry's standardeds dummy text ever since the 1500s, Lorem hellooes unknown printer</p>
+                  <h5 class="text32 text-start">Pediatric</h5>
+                  <p class="text34">Lorem Ipsum has been the industry's standardeds dummy text ever since the 1500s, Lorem hellooes unknown printer</p>
                 </div>
               </div>
             </div>
             <div class="col-lg-4 col-6">
               <div class="card rounded-4 cardservices">
-                <img src={img54} className='ms-auto' alt="..." width={141} height={141} />
+                <img src={img54} className='ms-auto img-fluid mt-3' alt="..." width={30 + '%'} />
                 <div class="card-body">
-                  <h5 class="text7 text-start">Implantable Contact Lens (ICL)</h5>
-                  <p class="card-text">Lorem Ipsum has been the industry's standardeds dummy text ever since the 1500s, Lorem hellooes unknown printer</p>
+                  <h5 class="text32 text-start">Implantable Contact Lens (ICL)</h5>
+                  <p class="text34">Lorem Ipsum has been the industry's standardeds dummy text ever since the 1500s, Lorem hellooes unknown printer</p>
                 </div>
               </div>
             </div>
             <div class="col-lg-4 col-6">
               <div class="card rounded-4 cardservices">
-                <img src={img55} className='ms-auto' alt="..." width={141} height={141} />
+                <img src={img55} className='ms-auto img-fluid mt-3' alt="..." width={30 + '%'} />
                 <div class="card-body">
-                  <h5 class="text7 text-start">Cornea</h5>
-                  <p class="card-text">Lorem Ipsum has been the industry's standardeds dummy text ever since the 1500s, Lorem hellooes unknown printer</p>
+                  <h5 class="text32 text-start">Cornea</h5>
+                  <p class="text34">Lorem Ipsum has been the industry's standardeds dummy text ever since the 1500s, Lorem hellooes unknown printer</p>
                 </div>
               </div>
             </div>
@@ -133,18 +133,29 @@ export default function Services() {
         </div>
       </div>
 
+      <img className='img-fluid position-absolute d-lg-block d-none' src={img31} alt="" width={300} height={273} style={{marginTop:-250,right:0}}/>
+
       {/* faq */}
       <div class="container-fluid faqsec" style={{ marginTop: 100, backgroundColor: '#F1F5F9' }}>
         <div className="container">
+          <div className="aboutus ">
+            <p className='text3 mx-auto d-block text-center' style={{ textAlign: 'start' }}>Frequently Asked <span style={{ color: '#017CC7' }}> Questions</span></p>
+            <p className='text4 mb-5' style={{ textAlign: 'start' }}>A cataract is a clouding of the lens inside </p>
+            <svg style={{ color: '#1C2434', display: 'block', marginTop: -25, marginBottom: 10 }} xmlns="http://www.w3.org/2000/svg" width="47" height="4" viewBox="0 0 47 4" fill="none">
+              <path d="M45.5 2H1.5" stroke="#1C2434" stroke-width="3" stroke-linecap="round" />
+            </svg>
+          </div>
           <div class="row">
             <div class="col-lg-6 ">
-              <p className='text3 mx-auto d-block' style={{ textAlign: 'start' }}>Frequently Asked<span style={{ color: '#017CC7' }}> Questions</span></p>
-              <p className='text4 mb-5' style={{ textAlign: 'start' }}>A cataract is a clouding of the lens inside </p>
-              <svg style={{ color: '#1C2434', display: 'block', marginTop: -25, marginBottom: 10 }} xmlns="http://www.w3.org/2000/svg" width="47" height="4" viewBox="0 0 47 4" fill="none">
-                <path d="M45.5 2H1.5" stroke="#1C2434" stroke-width="3" stroke-linecap="round" />
-              </svg>
+              <div className="about">
+                <p className='text3 ' style={{ textAlign: 'start' }}>Frequently Asked <span style={{ color: '#017CC7' }}> Questions</span></p>
+                <p className='text4 mb-5' style={{ textAlign: 'start' }}>A cataract is a clouding of the lens inside </p>
+                <svg style={{ color: '#1C2434', display: 'block', marginTop: -25, marginBottom: 10 }} xmlns="http://www.w3.org/2000/svg" width="47" height="4" viewBox="0 0 47 4" fill="none">
+                  <path d="M45.5 2H1.5" stroke="#1C2434" stroke-width="3" stroke-linecap="round" />
+                </svg>
+              </div>
               <div className='faqimg'>
-                <img className='' src={img56} alt="" width="550" height="450" style={{}} />
+                <img className='img-fluid' src={img56} alt="" style={{ width: 100 + '%', height: 500 }} />
               </div>
             </div>
             <div class="col-lg-6">
@@ -219,8 +230,8 @@ export default function Services() {
             <path d="M45.5 2H1.5" stroke="#1C2434" stroke-width="3" stroke-linecap="round" />
           </svg>
         </div>
-        <div className="container welcome">
-          <div className='row d-flex' >
+        <div className="container">
+          <div className='row d-flex g-5' >
             <div class=" col-lg-6 order-1 order-lg-0  touchlorem" >
               <div className="about">
                 <p className='text3 me-auto text-start'>Get in <span style={{ color: '#017CC7' }}> touch </span>now</p>
@@ -232,52 +243,18 @@ export default function Services() {
 
               <p className='text6'>Lorem Ipsum has been the industry's standard dummy Lorem Ipsum is simply dummy text of the printing and tyLorem Ipsum is simply dummy text of the printing and therefore typesetting industry. Lorem Ipsum has been the industry's standarrem Ipsum.</p>
               <p className='text6'>Lorem Ipsum has been the industry's standard dummy Lorem Ipsum is simply dummy text of the printing and tyLorem Ipsum is simply dummy text of the printing and therefore typesetting industry.</p>
-              <Link class="lead2 btn btn-primary btn-lg" to="/appoinment" role="button">Book Appointment</Link>
+              <Link class="lead2 btn btn-primary btn-lg mt-4" to="/appoinment" role="button">Book Appointment</Link>
             </div>
-
-            <div className='col-lg-6 order-0 order-lg-1 mx-auto d-block touch ' style={{width:430}} >
-              <div>
-                <img src={img58} alt="Your Image" style={{ width: 250, height: 510, position: 'absolute', zIndex: 3, marginLeft: 250,marginTop:-30 }} />
-                <img src={img57} alt="Your Image" style={{ width: 480, height: 480, position: 'absolute', zIndex: 1 }} />
-                <img src={img59} alt="Your Image" style={{marginLeft: 410,marginTop:-20,width:88,height:88}} />
-                <img src={img32} alt="Your Image" style={{marginTop:-70,width:15,height:15}} />
-                <img src={img60} alt="Your Image" style={{marginLeft: 200,marginTop:380,width:15,height:15,zIndex:'3',position:'absolute'}} />
-
-                <div className="rec6 d-flex">
-                  <div className="rec7 m-3 d-flex justify-content-center align-content-center">
-                    <img src={img61} alt="Your Image" style={{ margin: 'auto auto' }} />
-                  </div>
-                  <div className='mt-3 ms-3'>
-                    <p className='text7'>Take Appointment</p>
-                    <p className='card-text'>Book with easy steps</p>
-                  </div>
-                </div>
-
-                <div className="rec8 d-flex" style={{ marginTop: 120 }}>
-                  <div className="rec9 m-3 d-flex justify-content-center align-content-center">
-                    <img src={img62} alt="Your Image" style={{ margin: 'auto auto' }} />
-                  </div>
-                  <div className='mt-3 ms-3'>
-                    <p className='text20'>Eye Check Up</p>
-                    <p className='text19'>Need to check the problem</p>
-                  </div>
-                </div>
-
-                <div className="rec8 d-flex" id='rec8' style={{ marginTop: 240 }}>
-                  <div className="rec9 m-3 d-flex justify-content-center align-content-center">
-                    <img src={img63} alt="Your Image" style={{ margin: 'auto auto' }} />
-                  </div>
-                  <div className='mt-3 ms-3'>
-                    <p className='text20'>Start Treatments</p>
-                    <p className='text19'>Get the best solution</p>
-                  </div>
-                </div>
-
-              </div>
+            <div className='col-lg-6 order-0 order-lg-1 touch position-relative' >
+              <img src={img58} alt="Your Image" className='img-fluid' style={{ position: 'relative', zIndex: 3,width: 100 + '%', height: 100 + '%' }} />
+              <img src={img32} alt="Your Image"  className='d-lg-block d-none' style={{ position: 'absolute',top:60,left:60}} />
+              <img src={img60} alt="Your Image" className='d-lg-block d-none' style={{zIndex: '3',position: 'relative',marginLeft:200,marginTop:-50}} />
             </div>
           </div>
         </div>
       </div>
+
+      <img className='img-fluid position-absolute d-lg-block d-none' src={img30} alt="" width={259} height={198} style={{marginTop:-150,left:0}}/>
     </div>
   )
 }

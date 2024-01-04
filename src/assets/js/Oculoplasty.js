@@ -1,12 +1,11 @@
 import React from 'react'
+import img30 from '../images/img30.png'
+import img31 from '../images/img31.png'
 import img32 from '../images/img32.png'
 import img33 from '../images/img33.png'
 import img64 from '../images/img64.png'
 import img65 from '../images/img65.png'
 import img66 from '../images/img66.png'
-import img67 from '../images/img67.png'
-import img68 from '../images/img68.png'
-import img63 from '../images/img63.png'
 import img49 from '../images/img49.png'
 import img50 from '../images/img50.png'
 import img51 from '../images/img51.png'
@@ -14,13 +13,14 @@ import img52 from '../images/img52.png'
 import img53 from '../images/img53.png'
 import img54 from '../images/img54.png'
 import img55 from '../images/img55.png'
+import img83 from '../images/img83.png'
 import { Link } from 'react-router-dom'
 
 export default function Oculoplasty() {
   return (
     <div>
       {/* hero section */}
-      <div class="container-fluid text-center" style={{ marginTop: 50 + 'px' }}>
+      <div class="container-fluid text-center" >
         <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="340" viewBox="0 0 1920 340" fill="none">
           <path d="M0 0H1920V260.132L0 340V0Z" fill="#F1F5F9" />
 
@@ -37,18 +37,20 @@ export default function Oculoplasty() {
           </Link>
 
           <p className='text17 text-center' style={{ marginTop: -200 }}>
-            <img src={img32} alt="Your Image" width='' height="" style={{ marginTop: -60 }} />
+            <img src={img32} alt="Your Image" width='' height="" style={{ marginTop: -50 }} />
             Oculoplasty
             <img src={img32} alt="Your Image" width='' height="" style={{ marginTop: 30, marginLeft: 10 }} />
           </p>
         </div>
       </div>
 
+      <img className='img-fluid position-absolute d-lg-block d-none' src={img83} alt="" width={130} height={150} style={{marginTop:0,right:0}}/>
+
       {/* what is and symptom */}
-      <div className='container aboutmain' style={{ marginTop: 100 + 'px' }}>
+      <div className='container aboutmain ' style={{ marginTop: 100 + 'px' }}>
         <div className='row' >
           <div className='col-lg-6 '>
-            <img src={img64} alt="Your Image" width='480' height='350' />
+            <img src={img64} alt="Your Image" className='img-fluid symptom' width='100%' />
           </div>
 
           <div class="jumbotron col-lg-6 mx-auto d-block">
@@ -57,7 +59,7 @@ export default function Oculoplasty() {
             <p className='text7'>Symptoms of Oculoplasty Disease</p>
             <p className='text6'>
               <div class="container text-center">
-                <div class="row">
+                <div class="row oculoplasty">
                   <div class="col-lg-6">
                     <div className="d-flex">
                       <img className='mt-1 me-2' src={img32} alt="Your Image" width='15' height='15' />
@@ -136,7 +138,7 @@ export default function Oculoplasty() {
             </div>
           </div>
           <div class="col-lg-8 order-lg-3 order-1">
-            <img src={img65} alt="Your Image" width={800} height={400} />
+            <img src={img65} alt="Your Image" className='img-fluid' width={800} height={400} />
           </div>
         </div>
       </div>
@@ -145,11 +147,14 @@ export default function Oculoplasty() {
       <div className="container mt-5">
         <p className='text1 mb-4'>Treatments</p>
         <p className='text6'>Restore your vision & restore your life with the most modern POculoplasty management options available today. Oculoplasty, also known as oculoplastic surgery or ophthalmic plastic surgery, is a specialized branch of ophthalmology.</p>
-        <div class="badge rounded-pill bg-light text-dark border border-dark px-4 py-2 treatment" >Eyelid</div>
-        <div class="badge rounded-pill bg-light text-dark border border-dark px-4 py-2 ms-4 treatment" >Brow Lift</div>
+
+        <a class="btn bg-light rounded-pill border border-dark ms-3 px-4 py-1 treatment" href="#" role="button">Eyelid</a>
+        <a class="btn bg-light  rounded-pill border border-dark ms-3 px-4 py-1 treatment" href="#" role="button">Brow Lift</a>
+
+
         <p className='text6 mt-3'>Restore your vision & restore your life with the most modern POculoplasty management options available today. Oculoplasty, also known as oculoplastic surgery or ophthalmic plastic surgery, is a specialized branch of ophthalmology.Restore your vision & restore your life with the most modern POculoplasty management options available today. Oculoplasty, also known as oculoplastic surgery or ophthalmic plastic surgery, is a specialized branch of ophthalmology.</p>
 
-        <p className='treatment mt-4'>Upper Eyelids</p>
+        <p className='treatmentmain mt-4'>Upper Eyelids</p>
         <div className="text6">
           <div className="d-flex">
             <img className='mt-1 me-2' src={img32} alt="Your Image" width='15' height='15' />
@@ -165,7 +170,7 @@ export default function Oculoplasty() {
           </div>
         </div>
 
-        <p className='treatment mt-3'>Lower Eyelids
+        <p className='treatmentmain mt-3'>Lower Eyelids
           <div className="text6">
             <div className="d-flex mt-3">
               <img className='mt-1 me-2' src={img32} alt="Your Image" width='15' height='15' />
@@ -181,10 +186,12 @@ export default function Oculoplasty() {
             </div>
           </div>
         </p>
-        <p className='treatment'>The Eyelid Surgery Procedure
+        <p className='treatmentmain'>The Eyelid Surgery Procedure
           <p className='text6 mt-3'> Cosmetic eyelid surgery can be performed on either the upper, lower or both lids. The goal for the upper lids is usually to lift it by removing excess skin. For the lower lids, a combination of excess skin and fatty deposits are removed to eliminate the bag under the eyes. The result of either or both is a smoother, more youthful and well-rested appearance. Patients can expect the results to last for many years. Over time a small amount of excess skin or fat may be noticed. If this does occur, the skin or fat can easily and safely be removed.</p>
         </p>
       </div>
+
+      <img className='img-fluid position-absolute d-lg-block d-none' src={img31} alt="" width={290} height={263} style={{marginTop:-550,right:0}}/>
 
       {/* book appoinment */}
       <div className='container-fluid py-5' style={{ marginTop: 100 + 'px', backgroundColor: '#F1F5F9' }}>
@@ -206,78 +213,28 @@ export default function Oculoplasty() {
                   <path d="M45.5 2H1.5" stroke="#1C2434" stroke-width="3" stroke-linecap="round" />
                 </svg>
               </div>
-
-              <div class="container">
-                <div class="row">
-                  <div class="col-2">
-                    <div className="text21">
-                      <p>Monday:</p>
-                      <p>Tuesday:</p>
-                      <p>Wednesday:</p>
-                      <p>Thursday:</p>
-                      <p>Friday:</p>
-                      <p>Saturday:</p>
-                      <p>Sunday:</p>
-                    </div>
+                  <div class="appointime">
+                    <p className='text21'>Monday:<span className='text22 ms-3'>10:00am to 05:00pm</span> <span className='text23'>(Dr.Shailesh Agrawal)</span></p>
+                    <p className='text21'>Tuesday:<spa className='text22 ms-3'>10:00am to 05:00pm</spa> <span className='text23'>(Dr. Khushboo Patel)</span></p>
+                    <p className='text21'>Wednesday:<span className='text22 ms-3'>10:00am to 05:00pm </span></p>
+                    <p className='text21'>Thursday:<span className='text22 ms-3'>10:00am to 05:00pm </span><span className='text23'>(Dr. Khushboo Patel)</span></p>
+                    <p className='text21'>Friday:<span className='text22 ms-3'>10:00am to 05:00pm </span><span className='text23'>(Dr. Khushboo Patel)</span></p>
+                    <p className='text21'>Saturday:<span className='text22 ms-3'>10:00am to 05:00pm </span><span className='text23'>(Dr. Khushboo Patel)</span></p>
+                    <p className='text21'>Sunday:<span className='text22 ms-3'>10:00am to 05:00pm </span></p>
                   </div>
-                  <div class="col-10 appointime ">
-                    <p className='text22'>10:00am to 05:00pm <span className='text23'>(Dr.Shailesh Agrawal)</span></p>
-                    <p className='text22'>10:00am to 05:00pm <span className='text23'>(Dr. Khushboo Patel)</span></p>
-                    <p className='text22'>10:00am to 05:00pm </p>
-                    <p className='text22'>10:00am to 05:00pm <span className='text23'>(Dr. Khushboo Patel)</span></p>
-                    <p className='text22'>10:00am to 05:00pm <span className='text23'>(Dr. Khushboo Patel)</span></p>
-                    <p className='text22'>10:00am to 05:00pm <span className='text23'>(Dr. Khushboo Patel)</span></p>
-                    <p className='text22'>10:00am to 05:00pm </p>
-                  </div>
-                </div>
-              </div>
-
               <Link class="lead2 btn btn-primary btn-lg mt-4" to="/appoinment" role="button">Book Appointment</Link>
             </div>
 
-            <div className='col-lg-6 order-0 order-lg-1 mx-auto d-block touch' >
-              <div>
-                <img src={img66} alt="Your Image" style={{ width: 600, height: 510, position: 'absolute', zIndex: 3, marginLeft: 0, marginTop: -90 }} />
-                <div style={{ marginTop: 100 }}>
-                  <div className="rec6 d-flex">
-                    <div className="rec7 m-3 d-flex justify-content-center align-content-center">
-                      <img src={img67} alt="Your Image" style={{ margin: 'auto auto' }} />
-                    </div>
-                    <div className='mt-3 ms-3'>
-                      <p className='text7'>Best Eye treatment</p>
-                      <p className='card-text'>Get the best treatment</p>
-                    </div>
-                  </div>
-
-                  <div className="rec8 d-flex" style={{ marginTop: 120 }}>
-                    <div className="rec9 m-3 d-flex justify-content-center align-content-center">
-                      <img src={img68} alt="Your Image" style={{ margin: 'auto auto' }} />
-                    </div>
-                    <div className='mt-3 ms-3'>
-                      <p className='text20'>Trusted Doctors</p>
-                      <p className='text19'>Highly Qualified</p>
-                    </div>
-                  </div>
-
-                  <div className="rec8 d-flex" id='rec8' style={{ marginTop: 240 }}>
-                    <div className="rec9 m-3 d-flex justify-content-center align-content-center">
-                      <img src={img63} alt="Your Image" style={{ margin: 'auto auto' }} />
-                    </div>
-                    <div className='mt-3 ms-3'>
-                      <p className='text20'>Success full Surgery</p>
-                      <p className='text19'>Trusted Team</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div className='col-lg-6 order-0 order-lg-1 mx-auto d-block bookingimg' >
+              <img src={img66} alt="Your Image"  width={100 + '%'} height={450} />
             </div>
           </div>
         </div>
       </div>
 
       {/* other services */}
-      <div className='container team' style={{ marginTop: 100 + 'px' }}>
-        <p className='text3 mx-auto d-block'>Our Other <span style={{ color: '#017CC7' }}> Services </span></p>
+      <div className='container' style={{ marginTop: 100 + 'px' }}>
+        <p className='text3 mx-auto d-block'><span style={{ color: '#017CC7' }}> Services </span> we provide</p>
         <p className='text4'>A cataract is a clouding of the lens inside </p>
         <svg style={{ color: '#1C2434', margin: 'auto', display: 'block', marginBottom: 50 + 'px' }} xmlns="http://www.w3.org/2000/svg" width="47" height="4" viewBox="0 0 47 4" fill="none">
           <path d="M45.5 2H1.5" stroke="#1C2434" stroke-width="3" stroke-linecap="round" />
@@ -287,71 +244,79 @@ export default function Oculoplasty() {
 
           <div class="col-lg-4 col-6 ">
               <div class="card rounded-4 cardservices">
-                <img src={img50} className='ms-auto' alt="..." width={141} height={141} />
+                <img src={img50} className='ms-auto img-fluid mt-3' alt="..." width={30 + '%'} />
                 <div class="card-body">
-                  <h5 class="text7 text-start">Refractive Procedures</h5>
-                  <p class="card-text">Lorem Ipsum has been the industry's standardeds dummy text ever since the 1500s, Lorem hellooes unknown printer</p>
+                  <h5 class="text32 text-start">Refractive Procedures</h5>
+                  <p class="text34 text-start">Lorem Ipsum has been the industry's standardeds dummy text ever since the 1500s, Lorem hellooes unknown printer</p>
                 </div>
               </div>
             </div>
+
             <div class="col-lg-4 col-6">
               <div class="card rounded-4 cardservices">
-                <img src={img49} className='ms-auto' alt="..." width={141} height={141} />
+                <img src={img49} className='ms-auto img-fluid mt-3' alt="..." width={30 + '%'} />
                 <div class="card-body">
-                  <h5 class="text7 text-start">Cataract</h5>
-                  <p class="card-text">Lorem Ipsum has been the industry's standardeds dummy text ever since the 1500s, Lorem hellooes unknown printer</p>
+                  <h5 class="text32 text-start">Cataract</h5>
+                  <p class="text34 text-start">Lorem Ipsum has been the industry's standardeds dummy text ever since the 1500s, Lorem hellooes unknown printer</p>
+                </div>
+              </div>
+            </div>   
+
+              <div class="col-lg-4 col-6">
+              <div class="card rounded-4 cardservices">
+                <img src={img55} className='ms-auto img-fluid mt-3' alt="..." width={30 + '%'} />
+                <div class="card-body">
+                  <h5 class="text32 text-start">Cornea</h5>
+                  <p class="text34 text-start">Lorem Ipsum has been the industry's standardeds dummy text ever since the 1500s, Lorem hellooes unknown printer</p>
+                </div>
+              </div>
+            </div>         
+
+            <div class="col-lg-4 col-6">
+              <div class="card rounded-4 cardservices">
+                <img src={img51} className='ms-auto img-fluid mt-3' alt="..." width={30 + '%'} />
+                <div class="card-body">
+                  <h5 class="text32 text-start">Glaucoma</h5>
+                  <p class="text34 text-start">Lorem Ipsum has been the industry's standardeds dummy text ever since the 1500s, Lorem hellooes unknown printer</p>
                 </div>
               </div>
             </div>
+
             <div class="col-lg-4 col-6">
               <div class="card rounded-4 cardservices">
-                <img src={img55} className='ms-auto' alt="..." width={141} height={141} />
+                <img src={img52} className='ms-auto img-fluid mt-3' alt="..." width={30 + '%'} />
                 <div class="card-body">
-                  <h5 class="text7 text-start">Cornea</h5>
-                  <p class="card-text">Lorem Ipsum has been the industry's standardeds dummy text ever since the 1500s, Lorem hellooes unknown printer</p>
+                  <h5 class="text32 text-start">Retina</h5>
+                  <p class="text34 text-start">Lorem Ipsum has been the industry's standardeds dummy text ever since the 1500s, Lorem hellooes unknown printer</p>
                 </div>
               </div>
             </div>
+
             <div class="col-lg-4 col-6">
               <div class="card rounded-4 cardservices">
-                <img src={img51} className='ms-auto' alt="..." width={141} height={141} />
+                <img src={img53} className='ms-auto img-fluid mt-3' alt="..." width={30 + '%'} />
                 <div class="card-body">
-                  <h5 class="text7 text-start">Glaucoma</h5>
-                  <p class="card-text">Lorem Ipsum has been the industry's standardeds dummy text ever since the 1500s, Lorem hellooes unknown printer</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-6">
-              <div class="card rounded-4 cardservices">
-                <img src={img52} className='ms-auto' alt="..." width={141} height={141} />
-                <div class="card-body">
-                  <h5 class="text7 text-start">Retina</h5>
-                  <p class="card-text">Lorem Ipsum has been the industry's standardeds dummy text ever since the 1500s, Lorem hellooes unknown printer</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-6">
-              <div class="card rounded-4 cardservices">
-                <img src={img53} className='ms-auto' alt="..." width={141} height={141} />
-                <div class="card-body">
-                  <h5 class="text7 text-start">Pediatric</h5>
-                  <p class="card-text">Lorem Ipsum has been the industry's standardeds dummy text ever since the 1500s, Lorem hellooes unknown printer</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-6">
-              <div class="card rounded-4 cardservices">
-                <img src={img54} className='ms-auto' alt="..." width={141} height={141} />
-                <div class="card-body">
-                  <h5 class="text7 text-start">Implantable Contact Lens (ICL)</h5>
-                  <p class="card-text">Lorem Ipsum has been the industry's standardeds dummy text ever since the 1500s, Lorem hellooes unknown printer</p>
+                  <h5 class="text32 text-start">Pediatric</h5>
+                  <p class="text34 text-start">Lorem Ipsum has been the industry's standardeds dummy text ever since the 1500s, Lorem hellooes unknown printer</p>
                 </div>
               </div>
             </div>
             
+            <div class="col-lg-4 col-6">
+              <div class="card rounded-4 cardservices">
+                <img src={img54} className='ms-auto img-fluid mt-3' alt="..." width={30 + '%'} />
+                <div class="card-body">
+                  <h5 class="text32 text-start">Implantable Contact Lens (ICL)</h5>
+                  <p class="text34 text-start">Lorem Ipsum has been the industry's standardeds dummy text ever since the 1500s, Lorem hellooes unknown printer</p>
+                </div>
+              </div>
+            </div>
+          
           </div>
         </div>
       </div>
+
+      <img className='img-fluid position-absolute d-lg-block d-none' src={img30} alt="" width={198} height={198} style={{marginTop:-180,left:0}}/>
     </div>
   )
 }

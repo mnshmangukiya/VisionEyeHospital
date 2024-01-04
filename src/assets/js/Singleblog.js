@@ -1,4 +1,6 @@
 import React from 'react'
+import img30 from '../images/img30.png'
+import img31 from '../images/img31.png'
 import img32 from '../images/img32.png'
 import img33 from '../images/img33.png'
 import img69 from '../images/img69.png'
@@ -6,6 +8,8 @@ import img70 from '../images/img70.png'
 import img71 from '../images/img71.png'
 import img72 from '../images/img72.png'
 import img73 from '../images/img73.png'
+import img83 from '../images/img83.png'
+import img85 from '../images/img85.png'
 import { Link } from 'react-router-dom'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
@@ -13,7 +17,7 @@ export default function Singleblog() {
   return (
     <div>
       {/* hero section */}
-      <div class="container-fluid text-center" style={{ marginTop: 50 + 'px' }}>
+      <div class="container-fluid text-center" >
         <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="340" viewBox="0 0 1920 340" fill="none">
           <path d="M0 0H1920V260.132L0 340V0Z" fill="#F1F5F9" />
 
@@ -30,12 +34,13 @@ export default function Singleblog() {
           </Link>
 
           <p className='text17 text-center' style={{ marginTop: -200 }}>
-            <img src={img32} alt="Your Image" width='' height="" style={{ marginTop: -60 }} />
+            <img src={img32} alt="Your Image" width='' height="" style={{ marginTop: -50 }} />
             Blog Details
             <img src={img32} alt="Your Image" width='' height="" style={{ marginTop: 30, marginLeft: 10 }} />
           </p>
         </div>
       </div>
+      <img className='img-fluid position-absolute d-lg-block d-none' src={img83} alt="" width={130} height={150} style={{ marginTop: -50, right: 0 }} />
 
       {/* blog details */}
       <div className="container" style={{ marginTop: 100 + 'px' }}>
@@ -145,8 +150,10 @@ export default function Singleblog() {
         </div>
       </div>
 
-      {/* get in touch */}
-      <div className='container py-5 aboutmain' style={{ marginTop: 100 + 'px' }}>
+      <img className='img-fluid position-absolute d-lg-block d-none' src={img31} alt="" width={290} height={263} style={{ marginTop: -180, right: 0 }} />
+
+      {/* latest blog */}
+      <div className='container py-5 aboutmain' style={{ marginTop: 50 + 'px' }}>
         <p className='text3 mx-auto d-block'>Our Latest <span style={{ color: '#017CC7' }}>Blogs </span> </p>
         <p className='text4'>A cataract is a clouding of the lens inside </p>
         <svg style={{ color: '#1C2434', margin: 'auto', display: 'block', marginBottom: 50 + 'px' }} xmlns="http://www.w3.org/2000/svg" width="47" height="4" viewBox="0 0 47 4" fill="none">
@@ -166,6 +173,7 @@ export default function Singleblog() {
                   <a href="#" class="card-link">Read More <ArrowForwardIcon /></a>
                 </div>
               </div>
+              <img src={img85} alt="..." className='rounded-bottom-3 position-absolute' width={110} height={80} style={{ bottom: 0, right: 0 }} />
             </div>
           </div>
           <div class="col-lg-4 col-12">
@@ -180,6 +188,7 @@ export default function Singleblog() {
                   <a href="#" class="card-link">Read More <ArrowForwardIcon /></a>
                 </div>
               </div>
+              <img src={img85} alt="..." className='rounded-bottom-3 position-absolute' width={110} height={80} style={{ bottom: 0, right: 0 }} />
             </div>
           </div>
           <div class="col-lg-4 col-12 ">
@@ -194,6 +203,7 @@ export default function Singleblog() {
                   <a href="#" class="card-link">Read More <ArrowForwardIcon /></a>
                 </div>
               </div>
+              <img src={img85} alt="..." className='rounded-bottom-3 position-absolute' width={110} height={80} style={{ bottom: 0, right: 0 }} />
             </div>
           </div>
 
@@ -209,6 +219,7 @@ export default function Singleblog() {
                   <a href="#" class="card-link">Read More <ArrowForwardIcon /></a>
                 </div>
               </div>
+              <img src={img85} alt="..." className='rounded-bottom-3 position-absolute' width={110} height={80} style={{ bottom: 0, right: 0 }} />
             </div>
           </div>
           <div class="col-lg-4 col-12 d-none d-lg-block">
@@ -223,6 +234,7 @@ export default function Singleblog() {
                   <a href="#" class="card-link">Read More <ArrowForwardIcon /></a>
                 </div>
               </div>
+              <img src={img85} alt="..." className='rounded-bottom-3 position-absolute' width={110} height={80} style={{ bottom: 0, right: 0 }} />
             </div>
           </div>
           <div class="col-lg-4 col-12 d-none d-lg-block">
@@ -237,10 +249,12 @@ export default function Singleblog() {
                   <a href="#" class="card-link">Read More <ArrowForwardIcon /></a>
                 </div>
               </div>
+              <img src={img85} alt="..." className='rounded-bottom-3 position-absolute' width={110} height={80} style={{ bottom: 0, right: 0 }} />
             </div>
           </div>
         </div>
       </div>
+      <img className='img-fluid position-absolute d-lg-block d-none' src={img30} alt="" width={250} height={250} style={{ marginTop: -200, left: 0 }} />
     </div>
   )
 }

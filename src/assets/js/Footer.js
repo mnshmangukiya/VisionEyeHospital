@@ -6,20 +6,22 @@ import { Link } from 'react-router-dom';
 export default function Footer() {
     return (
         <div>
-            <div className='flyer'>
-                <div class="row">
-                    <div class="col-lg-8">
-                        <p>Want to make appointment easily?</p>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                            Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                    </div>
-                    <div class="col-lg-4 text-center">
-                        <Link class="lead2 btn btn-primary btn-lg" to="/appoinment" role="button">Book Appoinment</Link>
+            <div className="container">
+                <div className='flyer z-2'>
+                    <div class="row ms-3 me-3">
+                        <div class="col-lg-8">
+                            <p className='card-title my-3'>Want to make appointment easily?</p>
+                            <p className='card-text mb-3' style={{ color: '#017CC7' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        </div>
+                        <div class="col-lg-4 text-center my-auto d-block">
+                            <Link class="lead2 btn btn-primary btn-lg" to="/appoinment" role="button">Book Appoinment</Link>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="container-fluid d-flex footer" style={{ marginTop: 100, justifyContent: 'center', backgroundColor: '#1C2434' }}>
+            <div class="container-fluid d-flex footer z-1 position-relative" style={{ justifyContent: 'center', backgroundColor: '#1C2434' }}>
                 <svg className='svgone' xmlns="http://www.w3.org/2000/svg" width="108" height="108" viewBox="0 0 108 108" fill="none" style={{ position: 'absolute', left: 0, marginTop: 20 }}>
                     <path x="100" y="100" opacity="0.15" d="M69.1485 70.2192L69.1485 106.909L38.8429 106.909L38.8429 70.2192V69.2192H37.8429L1.15307 69.2192V38.9136L37.8429 38.9136H38.8429V37.9136L38.8429 1.22374L69.1485 1.22373L69.1485 37.9136L69.1485 38.9136L70.1485 38.9136L106.838 38.9136L106.838 69.2192L70.1485 69.2192L69.1485 69.2192L69.1485 70.2192Z" stroke="white" stroke-width="2" />
                 </svg>
@@ -103,7 +105,7 @@ export default function Footer() {
                             <svg xmlns="http://www.w3.org/2000/svg" width="46" height="2" viewBox="0 0 46 2" fill="none" style={{ marginTop: -50 }}>
                                 <path d="M45 1H1" stroke="#E2E8F0" stroke-width="2" stroke-linecap="round" />
                             </svg>
-                            <div className='text13 bg-light rounded-2 d-flex justify-content-center align-items-center ' style={{ height: 62,width:260 }}>+919909905215</div>
+                            <div className='text13 bg-light rounded-2 d-flex justify-content-center align-items-center ' style={{ height: 62, width: 260 }}>+919909905215</div>
                             <p><a className='ms-0' href='#'>info@visioneyehospital.net</a></p>
                         </div>
                     </div>

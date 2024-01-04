@@ -1,8 +1,10 @@
 import React from 'react'
+import img30 from '../images/img30.png'
 import img32 from '../images/img32.png'
 import img33 from '../images/img33.png'
 import img76 from '../images/img76.png'
 import img26 from '../images/img26.png'
+import img83 from '../images/img83.png'
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import { Link } from 'react-router-dom'
 
@@ -10,7 +12,7 @@ export default function Contactus() {
   return (
     <div>
       {/* hero section */}
-      <div class="container-fluid text-center" style={{ marginTop: 50 + 'px' }}>
+      <div class="container-fluid text-center" >
         <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="340" viewBox="0 0 1920 340" fill="none">
           <path d="M0 0H1920V260.132L0 340V0Z" fill="#F1F5F9" />
 
@@ -33,17 +35,18 @@ export default function Contactus() {
           </p>
         </div>
       </div>
+      <img className='img-fluid position-absolute d-lg-block d-none' src={img83} alt="" width={130} height={150} style={{marginTop:-50,right:0}}/>
 
       {/* address */}
-      <div className='container py-5 aboutmain' style={{ marginTop: 100 + 'px' }}>
+      <div className='container py-5 ' style={{ marginTop: 100 + 'px' }}>
         <p className='text3 mx-auto d-block'>Get in touch with us today and  <span style={{ color: '#017CC7' }}>take good care of your eye  </span>with us. </p>
         <p className='text4'>A cataract is a clouding of the lens inside </p>
         <svg style={{ color: '#1C2434', margin: 'auto', display: 'block', marginBottom: 50 + 'px' }} xmlns="http://www.w3.org/2000/svg" width="47" height="4" viewBox="0 0 47 4" fill="none">
           <path d="M45.5 2H1.5" stroke="#1C2434" stroke-width="3" stroke-linecap="round" />
         </svg>
 
-        <div class="row">
-          <div class="col-lg-6 relatedblog p-3">
+        <div class="row d-flex gap-4">
+          <div class="col-lg relatedblog p-3 "  >
             <div class="card p-3">
               <div class="card-body">
                 <a class="btn bg-primary text-light rounded-pill py-2 px-3 contactuspill mb-3" href='#' role="button">Parle Point Branch</a>
@@ -68,7 +71,7 @@ export default function Contactus() {
               </div>
             </div>
           </div>
-          <div class="col-lg-6 relatedblog p-3">
+          <div class="col-lg relatedblog p-3">
             <div class="card p-3">
               <div class="card-body">
                 <a class="btn bg-primary text-light rounded-pill py-2 px-3 contactuspill mb-3" href='#' role="button">Parvat patiya Branch</a>
@@ -97,8 +100,8 @@ export default function Contactus() {
       </div>
 
       {/* form */}
-      <div class="container py-5 ps-5 pe-0  w-100" style={{ marginTop: 100, backgroundColor: '#F1F5F9' }}>
-        <div class="row">
+      <div class="container py-5 ps-5 pe-0 " style={{ marginTop: 100, backgroundColor: '#F1F5F9',borderRadius: 16 }}>
+        <div class="row formone">
           <div class="col-lg-7">
             <form class="row g-5">
               <div class="col-lg-6">
@@ -174,7 +177,8 @@ export default function Contactus() {
             <img src={img76} alt='' className='img-fluid d-lg-block d-none w-100 h-100' />
           </div>
         </div>
-      </div>
+      </div >
+      <img className='img-fluid position-absolute d-lg-block d-none' src={img30} alt="" width={170} height={250} style={{marginTop:-150,left:0}}/>
 
       {/* faq */}
       <div class="container-fluid faqsec" style={{ marginTop: 100, backgroundColor: '#F1F5F9' }}>
@@ -261,6 +265,6 @@ export default function Contactus() {
           </div>
         </div>
       </div>
-    </div>
+    </div >
   )
 }

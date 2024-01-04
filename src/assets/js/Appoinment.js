@@ -1,4 +1,6 @@
 import React from 'react'
+import img30 from '../images/img30.png'
+import img31 from '../images/img31.png'
 import img32 from '../images/img32.png'
 import img33 from '../images/img33.png'
 import img77 from '../images/img77.png'
@@ -10,6 +12,7 @@ import img56 from '../images/img56.png'
 import img25 from '../images/img25.png'
 import img24 from '../images/img24.png'
 import img15 from '../images/img15.png'
+import img83 from '../images/img83.png'
 import { Rating } from '@mui/material'
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
@@ -27,16 +30,16 @@ export default function Appoinment() {
     nextArrow: <div><ArrowForwardIosIcon className='carousel-control-next' sx={{ fontSize: 30 }} /></div>,
     prevArrow: <div><ArrowBackIosIcon className='carousel-control-prev' sx={{ fontSize: 30 }} /></div>,
     responsive: [
-        {
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                infinite: true,
-            }
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
         }
+      }
     ]
-};
+  };
 
   var settings4 = {
     infinite: false,
@@ -47,21 +50,21 @@ export default function Appoinment() {
     nextArrow: <div><ArrowForwardIosIcon className='carousel-control-next3' sx={{ fontSize: 30 }} /></div>,
     prevArrow: <div><ArrowBackIosIcon className='carousel-control-prev3' sx={{ fontSize: 30 }} /></div>,
     responsive: [
-        {
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1,
-                infinite: true,
-            }
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
         }
+      }
     ]
-};
+  };
 
   return (
     <div>
       {/* hero section */}
-      <div class="container-fluid text-center" style={{ marginTop: 50 + 'px' }}>
+      <div class="container-fluid text-center" >
         <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="340" viewBox="0 0 1920 340" fill="none">
           <path d="M0 0H1920V260.132L0 340V0Z" fill="#F1F5F9" />
 
@@ -84,11 +87,12 @@ export default function Appoinment() {
           </p>
         </div>
       </div>
+      <img className='img-fluid position-absolute d-lg-block d-none' src={img83} alt="" width={130} height={150} style={{marginTop:-50,right:0}}/>
 
       {/* form */}
-      <div class="container py-5 pe-5 position-relative" style={{ marginTop: 100, backgroundColor: '#F1F5F9' }}>
-        <div class="row">
-          <div class="col-lg-5 mx-auto d-block">
+      <div class="container py-5 pe-5 position-relative" style={{ marginTop: 100, backgroundColor: '#F1F5F9', borderRadius: 32 }}>
+        <div class="row formtwo">
+          <div class="col-lg-5 text-center text-lg-start">
             <div className="ps-5">
               <p className='text24'>Book  your Appointment Now</p>
               <p className='treatment'>For more Query call on:</p>
@@ -98,7 +102,7 @@ export default function Appoinment() {
                 <path d="M9.49781 12.524C11.2581 12.524 12.6851 11.1169 12.6851 9.38114C12.6851 7.64539 11.2581 6.23828 9.49781 6.23828C7.73753 6.23828 6.31055 7.64539 6.31055 9.38114C6.31055 11.1169 7.73753 12.524 9.49781 12.524Z" stroke="#1C2434" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                 <path d="M17.9987 9.46154C17.9987 17.0769 9.49937 23 9.49937 23C9.49937 23 1 17.0769 1 9.46154C1 7.2174 1.89547 5.06517 3.48941 3.47833C5.08335 1.89148 7.2452 1 9.49937 1C11.7535 1 13.9154 1.89148 15.5093 3.47833C17.1033 5.06517 17.9987 7.2174 17.9987 9.46154V9.46154Z" stroke="#1C2434" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
               </svg>
-              <span className='text25 ms-3' >Parle Point: <span className='card-text'>+91 9909905212 / +91 9909905353</span></span>
+              <span className='text33 ms-3' >Parle Point: <span className='text34'>+91 9909905212 / +91 9909905353</span></span>
 
               <div className='mt-3'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="19" height="24" viewBox="0 0 19 24" fill="none">
@@ -106,11 +110,11 @@ export default function Appoinment() {
                   <path d="M9.49781 12.524C11.2581 12.524 12.6851 11.1169 12.6851 9.38114C12.6851 7.64539 11.2581 6.23828 9.49781 6.23828C7.73753 6.23828 6.31055 7.64539 6.31055 9.38114C6.31055 11.1169 7.73753 12.524 9.49781 12.524Z" stroke="#1C2434" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                   <path d="M17.9987 9.46154C17.9987 17.0769 9.49937 23 9.49937 23C9.49937 23 1 17.0769 1 9.46154C1 7.2174 1.89547 5.06517 3.48941 3.47833C5.08335 1.89148 7.2452 1 9.49937 1C11.7535 1 13.9154 1.89148 15.5093 3.47833C17.1033 5.06517 17.9987 7.2174 17.9987 9.46154V9.46154Z" stroke="#1C2434" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
-                <span className='text25 ms-3' >Parvat Patiya:<span className='card-text'>+91 9879209651</span></span>
+                <span className='text33 ms-3' >Parvat Patiya:<span className='text34'>+91 9879209651</span></span>
               </div>
             </div>
 
-            <img src={img77} alt='' className='img-fluid d-lg-block d-none mt-5 appoinimg' />
+            <img src={img77} alt='' className='img-fluid d-lg-block d-none mt-5 appoinimg' style={{ borderRadius: 32 }} />
           </div>
           <div class="col-lg-7 appointform mx-auto d-block">
             <form class="row g-5">
@@ -226,72 +230,85 @@ export default function Appoinment() {
           </div>
         </div>
       </div>
+      <img className='img-fluid position-absolute d-lg-block d-none' src={img31} alt="" width={290} height={263} style={{marginTop:-130,right:0}}/>
 
       {/* team of doctors */}
       <div className='container team' style={{ marginTop: 100 + 'px' }}>
-        <p className='text3 mx-auto d-block'>Our<span style={{ color: '#017CC7' }}> team</span> of Doctors</p>
-        <p className='text4'>A cataract is a clouding of the lens inside </p>
-        <svg style={{ color: '#1C2434', margin: 'auto', display: 'block', marginBottom: 50 + 'px' }} xmlns="http://www.w3.org/2000/svg" width="47" height="4" viewBox="0 0 47 4" fill="none">
-          <path d="M45.5 2H1.5" stroke="#1C2434" stroke-width="3" stroke-linecap="round" />
-        </svg>
-        <Slider {...settings4}>
-          <div>
-            <div class="" id='col'>
-              <img className='rounded-circle mx-auto ' src={img20} alt="" width="150" height="150" />
-              <div className='rec4'>
-                <p className='text10'>Dr. Shailesh Agrawal</p>
-                <p className='text8'>M.S (Ophthalmology) Gold Medalist</p>
+        <p className='text28 mx-auto d-block'>Our<span style={{ color: '#017CC7' }}> team</span> of Doctors</p>
+        <p className='text29 mx-auto d-block'>A cataract is a clouding of the lens inside </p>
+        <div className="teammain">
+          <svg style={{ color: '#1C2434', margin: 'auto', display: 'block', marginBottom: 50 + 'px' }} xmlns="http://www.w3.org/2000/svg" width="47" height="4" viewBox="0 0 47 4" fill="none">
+            <path d="M45.5 2H1.5" stroke="#1C2434" stroke-width="3" stroke-linecap="round" />
+          </svg>
+
+          <Slider {...settings4}>
+            <div>
+              <div class="" id='col'>
+                <img className='rounded-circle mx-auto ' src={img20} alt="" width="150" height="150" />
+                <div className='rec4'>
+                  <p className='text10'>Dr. Shailesh Agrawal</p>
+                  <p className='text8'>M.S (Ophthalmology) Gold Medalist</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div>
-            <div class="" id='coldiff'>
-              <svg xmlns="http://www.w3.org/2000/svg" width="70" height="65" viewBox="0 0 61 55" fill="none" style={{ marginLeft: -5, marginTop: -5, borderRadius: 15 }}>
-                <g opacity="0.2">
-                  <circle cx="20.5" cy="14.5" r="32.5" fill="#017CC7" />
-                  <circle cx="19.5" cy="13.5" r="40" stroke="#017CC7" stroke-width="3" />
-                </g>
-              </svg>
-              <img className='rounded-circle mx-auto' src={img21} alt="" width="150" height="150" style={{ marginTop: -60 }} />
-              <div className='rec4'>
-                <p className='text9'>Dr. Khushboo Patel</p>
-                <p className='text8'>Vitreo Retina Surgeon & ROP Consultant</p>
+            <div>
+              <div class="" id='coldiff'>
+                <svg xmlns="http://www.w3.org/2000/svg" width="70" height="65" viewBox="0 0 61 55" fill="none" style={{ marginLeft: -5, marginTop: -5, borderRadius: 15 }}>
+                  <g opacity="0.2">
+                    <circle cx="20.5" cy="14.5" r="32.5" fill="#017CC7" />
+                    <circle cx="19.5" cy="13.5" r="40" stroke="#017CC7" stroke-width="3" />
+                  </g>
+                </svg>
+                <img className='rounded-circle mx-auto' src={img21} alt="" width="150" height="150" style={{ marginTop: -60 }} />
+                <div className='rec4'>
+                  <p className='text9'>Dr. Khushboo Patel</p>
+                  <p className='text8'>Vitreo Retina Surgeon & ROP Consultant</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div>
-            <div class="" id='col'>
-              <img className='rounded-circle mx-auto' src={img22} alt="" width="150" height="150" />
-              <div className='rec4'>
-                <p className='text10'>Dr. Nitin Jain</p>
-                <p className='text8'>MS,FAEH (Opthalmology)</p>
+            <div>
+              <div class="" id='col'>
+                <img className='rounded-circle mx-auto' src={img22} alt="" width="150" height="150" />
+                <div className='rec4'>
+                  <p className='text10'>Dr. Nitin Jain</p>
+                  <p className='text8'>MS,FAEH (Opthalmology)</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div>
-            <div class="" id='col'>
-              <img className='rounded-circle mx-auto ' src={img23} alt="" width="150" height="150" />
-              <div className='rec4'>
-                <p className='text10'>Dr. Saurin Gandhi</p>
-                <p className='text8'>DNB - Ophthalmology, MNAMS</p>
+            <div>
+              <div class="" id='col'>
+                <img className='rounded-circle mx-auto ' src={img23} alt="" width="150" height="150" />
+                <div className='rec4'>
+                  <p className='text10'>Dr. Saurin Gandhi</p>
+                  <p className='text8'>DNB - Ophthalmology, MNAMS</p>
+                </div>
               </div>
             </div>
-          </div>
-        </Slider>
+          </Slider>
+        </div>
       </div>
 
       {/* faq */}
       <div class="container-fluid faqsec" style={{ marginTop: 100, backgroundColor: '#F1F5F9' }}>
         <div className="container">
+          <div className="aboutus ">
+            <p className='text3 mx-auto d-block text-center' style={{ textAlign: 'start' }}>Frequently Asked <span style={{ color: '#017CC7' }}> Questions</span></p>
+            <p className='text4 mb-5' style={{ textAlign: 'start' }}>A cataract is a clouding of the lens inside </p>
+            <svg style={{ color: '#1C2434', display: 'block', marginTop: -25, marginBottom: 10 }} xmlns="http://www.w3.org/2000/svg" width="47" height="4" viewBox="0 0 47 4" fill="none">
+              <path d="M45.5 2H1.5" stroke="#1C2434" stroke-width="3" stroke-linecap="round" />
+            </svg>
+          </div>
           <div class="row">
             <div class="col-lg-6 ">
-              <p className='text3 mx-auto d-block' style={{ textAlign: 'start' }}>Frequently Asked<span style={{ color: '#017CC7' }}> Questions</span></p>
-              <p className='text4 mb-5' style={{ textAlign: 'start' }}>A cataract is a clouding of the lens inside </p>
-              <svg style={{ color: '#1C2434', display: 'block', marginTop: -25, marginBottom: 10 }} xmlns="http://www.w3.org/2000/svg" width="47" height="4" viewBox="0 0 47 4" fill="none">
-                <path d="M45.5 2H1.5" stroke="#1C2434" stroke-width="3" stroke-linecap="round" />
-              </svg>
+              <div className="about">
+                <p className='text3 ' style={{ textAlign: 'start' }}>Frequently Asked <span style={{ color: '#017CC7' }}> Questions</span></p>
+                <p className='text4 mb-5' style={{ textAlign: 'start' }}>A cataract is a clouding of the lens inside </p>
+                <svg style={{ color: '#1C2434', display: 'block', marginTop: -25, marginBottom: 10 }} xmlns="http://www.w3.org/2000/svg" width="47" height="4" viewBox="0 0 47 4" fill="none">
+                  <path d="M45.5 2H1.5" stroke="#1C2434" stroke-width="3" stroke-linecap="round" />
+                </svg>
+              </div>
               <div className='faqimg'>
-                <img className='' src={img56} alt="" width="550" height="450" style={{}} />
+                <img className='img-fluid' src={img56} alt="" style={{ width: 100 + '%', height: 500 }} />
               </div>
             </div>
             <div class="col-lg-6">
@@ -356,6 +373,7 @@ export default function Appoinment() {
           </div>
         </div>
       </div>
+      <img className='img-fluid position-absolute d-lg-block d-none' src={img30} alt="" width={259} height={2198} style={{marginTop:-110,left:0}}/>
 
       {/* rating and feedback */}
       <div className="container rating" style={{ marginTop: 100 }}>
@@ -367,37 +385,37 @@ export default function Appoinment() {
         <div>
           <Slider {...settings}>
             <div>
-              <div class="card cardclass mx-5">
-                <div className='d-flex p-5'>
-                  <img className='rounded-circle' src={img24} alt="" width="70" height="70" style={{}} />
+              <div class="card  mx-5 ratingcard">
+                <div className='d-flex p-3 cardclass'>
+                  <img className='rounded-circle ' src={img24} alt="" width="70" height="70" style={{}} />
                   <span className='lead3 ms-3'>John Carter</span>
-                  <span className='ms-auto mt-1'><Rating name="read-only" size="large" value={5} readOnly /></span>
+                  <span className='ms-auto mt-1 '><Rating name="read-only" size="small" value={5} readOnly /></span>
                 </div>
-                <div class="card-body text11 ms-4">
+                <div class="card-body text11 ms-1">
                   <p class="card-text">Working with Vision has been a game-changer for our business. Their strategies have led to significant growth and a boost in revenue.</p>
                 </div>
               </div>
             </div>
             <div>
-              <div class="card cardclass mx-5">
-                <div className='d-flex p-5'>
+              <div class="card  mx-5 ratingcard">
+                <div className='d-flex p-3 cardclass'>
                   <img className='rounded-circle' src={img25} alt="" width="70" height="70" style={{}} />
                   <span className='lead3 ms-3'>Peeter pawl</span>
-                  <span className='ms-auto mt-1'><Rating name="read-only" size="large" value={5} readOnly /></span>
+                  <span className='ms-auto mt-1'><Rating name="read-only" size="small" value={5} readOnly /></span>
                 </div>
-                <div class="card-body text11 ms-4">
+                <div class="card-body text11 ms-1">
                   <p class="card-text">I'm extremely impressed with the level of expertise and dedication that the team at Vision brings to me. They consistently deliver great results.</p>
                 </div>
               </div>
             </div>
             <div>
-              <div class="card cardclass mx-5">
-                <div className='d-flex p-5'>
-                  <img className='rounded-circle' src={img15} alt="No Image" width="70" height="70" style={{}} />
+              <div class="card  mx-5 ratingcard">
+                <div className='d-flex p-3 cardclass'>
+                  <img className='rounded-circle ' src={img15} alt="No Image" width="70" height="70" style={{}} />
                   <span className='lead3 ms-3'>Elis Perry</span>
-                  <span className='ms-auto mt-1'><Rating name="read-only" size="large" value={5} readOnly /></span>
+                  <span className='ms-auto mt-1'><Rating name="read-only" size="small" value={5} readOnly /></span>
                 </div>
-                <div class="card-body text11 ms-4">
+                <div class="card-body text11 ms-1">
                   <p class="card-text">I'm extremely impressed with the level of expertise and dedication that the team at Vision brings to me. They consistently deliver great results.</p>
                 </div>
               </div>
