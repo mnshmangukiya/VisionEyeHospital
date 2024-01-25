@@ -1,138 +1,674 @@
-@media(min-width:992px) {
-    .nav-link:focus {
-        border-bottom: 2px solid #017CC7;
+@media screen and (min-width:1400px) and (max-width:1440px) {
+    .appointment_form img {
+        height: 64%;
+    }
+
+    .blogs nav {
+        margin-left: 35%;
+    }
+
+    .oculoplasty_img img {
+        height: 85%;
+    }
+
+    .aboutus_container:hover::before {
+        left: -36px;
+    }
+
+    .aboutus_container:hover::after {
+        right: -37px;
+    }
+
+    .aboutus_container {
+        margin-left: 8%;
+        width: 80%;
+    }
+
+    .accordionarrow {
+        left: 535px;
+    }
+
+    .rating_sign {
+        margin-left: 17%;
+    }
+
+    .aboutus_glmipse_sign {
+        margin-left: 24%;
     }
 }
 
-@media(max-width:1200px) {
-
-    ::placeholder,
-    .form-select,
-    .message::placeholder {
-        font-size: 15px;
+@media screen and (min-width:1200px) and (max-width:1400px) {
+    .appointment_form_sign {
+        top: 14%;
+        left: 28%;
     }
 
-    .symptom {
-        height: 450px !important;
+    .appointment_form img {
+        height: 61%;
+    }
+
+    .blogs nav {
+        margin-left: 33%;
+    }
+
+    .oculoplasty_book_extra9 {
+        width: 57%;
+        height: 100%;
+    }
+
+    .oculoplasty_book_extra1,
+    .oculoplasty_book_extra4,
+    .oculoplasty_book_extra5 {
+        left: -40px !important;
+    }
+
+    .oculoplasty_book_extra8 {
+        left: -60px;
+    }
+
+    .oculoplasty_img img {
+        height: 100%;
+    }
+
+    .services_getintouch_img img:nth-child(2) {
+        width: 80%;
+    }
+
+    .services_getintouch_img_sec2,
+    .services_getintouch_img_sec1 {
+        left: 8%;
+    }
+
+    .aboutus_container:hover::before {
+        left: -32px;
+    }
+
+    .aboutus_container:hover::after {
+        right: -32px;
+    }
+
+    .aboutus_container {
+        width: 80%;
+        margin-left: 9%;
+    }
+
+    .aboutus_glmipse_sign {
+        margin-left: 20%;
+    }
+
+    .aboutus_approach_img3 img {
+        left: 40px;
+    }
+
+    #navbarTogglerDemo02 {
+        margin-right: 50px;
+    }
+
+    .carousel-control-next8 {
+        left: -30px;
+    }
+
+    .rating_sign {
+        margin-left: 12%;
+    }
+
+    .accordionarrow {
+        left: 460px;
+    }
+
+    .carousel-control-next7 {
+        left: -70px;
+    }
+
+    .trust_us_sign {
+        margin-left: 59%;
+    }
+
+    .team_sign {
+        margin-left: 20%;
+    }
+
+    .team_card div:nth-child(2) {
+        width: 82%;
+        height: 130px;
+        top: -70px;
+    }
+
+    .trust_us_mainimg4,
+    .trust_us_mainimg3,
+    .trust_us_mainimg2,
+    .trust_us_mainimg1 {
+        height: 120px;
+    }
+
+    .trust_us_inside3_img2 {
+        margin-top: 10px;
+    }
+
+    .trust_us_mainimg4 {
+        width: 637px;
+    }
+
+    .trust_us_mainimg3 {
+        width: 587px;
+    }
+
+    .trust_us_mainimg2 {
+        width: 537px;
+    }
+
+    .trust_us_mainimg1 {
+        width: 487px;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .carousel-control-prev8 {
+        left: -30px;
+    }
+    .appointment_form_sign {
+        top: 12%;
+        left: 27%;
+    }
+
+    .appointment_form img {
+        height: 62.5%;
+    }
+
+    .blogs nav {
+        margin-left: 30%;
+    }
+
+    .oculoplasty_book_extra10 {
+        align-items: center;
+    }
+
+    .oculoplasty_book_extra1,
+    .oculoplasty_book_extra4,
+    .oculoplasty_book_extra5 {
+        left: -40px !important;
+        margin-top: 50px;
+    }
+
+    .oculoplasty_book_extra7 {
+        top: 30px;
+    }
+
+    .oculoplasty_book_details1 {
+        gap: 37px;
+    }
+
+    .oculoplasty_book_extra9 {
+        width: 48%;
+        height: 80%;
+    }
+
+    .oculoplasty_book_extra8 {
+        left: -50px;
+        bottom: 110px;
+    }
+
+    .oculoplasty_img img {
+        height: 100%;
+    }
+
+    .services_getintouch_img img:nth-child(4) {
+        bottom: 0%;
+    }
+
+    .services_getintouch_img img:nth-child(2) {
+        width: 82%;
+        height: 100%;
+    }
+
+    .services_getintouch_subimg {
+        height: 108%;
+    }
+
+    .services_getintouch_img_sec2,
+    .services_getintouch_img_sec1 {
+        left: 5%;
+    }
+
+    .aboutus_container:hover::before {
+        left: -27px;
+    }
+
+    .aboutus_container:hover::after {
+        right: -27px;
+    }
+
+    .aboutus_container {
+        width: 80%;
+        margin-left: 9%;
+    }
+
+    .aboutus_glmipse_sign {
+        margin-left: 15%;
+    }
+
+    .aboutus_approach_img3 img {
+        left: 10px;
+        top: 40px;
+    }
+
+    .homeblogs_card {
+        margin-left: 15px;
+    }
+
+    #navbarTogglerDemo02 {
+        margin-right: 40px;
+    }
+
+    .navbar-nav {
+        gap: 0.25rem;
+    }
+
+    .carousel-control-next8 {
+        left: -30px;
+    }
+
+    .rating_sign {
+        margin-left: 5%;
+    }
+
+    .carousel-control-next7 {
+        left: -60px;
+    }
+
+    .number_svgone {
+        left: -20px;
+        top: -480px;
+    }
+
+    .number_data1 {
+        margin-left: -80px;
+    }
+
+    .number_data2 {
+        margin-left: -145px;
+    }
+
+    .number_data3 {
+        margin-left: 30px;
+    }
+
+    .number_data4 {
+        margin-left: 0px;
+    }
+
+    .number_svgtwo {
+        top: -120px;
+        right: 30px;
+    }
+
+    .trust_us_sign {
+        margin-left: 61%;
+    }
+
+    .team_sign {
+        margin-left: 13%;
+    }
+
+    .team_card div:nth-child(2) {
+        width: 81%;
+        height: 130px;
+        top: -70px
+    }
+
+    .trust_us_mainimg4,
+    .trust_us_mainimg3,
+    .trust_us_mainimg2,
+    .trust_us_mainimg1 {
+        height: 120px;
+    }
+
+    .trust_us_inside3_img2 {
+        margin-top: 10px;
+    }
+
+    .trust_us_mainimg4 {
+        width: 457px;
+    }
+
+    .trust_us_mainimg3 {
+        width: 407px;
+    }
+
+    .trust_us_mainimg2 {
+        width: 357px;
+    }
+
+    .trust_us_mainimg1 {
+        width: 307px;
+    }
+
+    .carousel-control-next5 {
+        position: relative;
+        top: -80px;
+        left: -80px;
+    }
+
+    .homehero_img1 {
+        margin-top: -50px;
+        height: 110%;
     }
 
     .accordionarrow {
         position: absolute;
-        left: 390px;
+        left: 375px;
     }
 
-    .facilityimg3 {
-        width: 500px;
-    }
-
-    .facilityimg2 {
-        width: 450px;
-    }
-
-    .facilityimg1 {
-        width: 400px;
-    }
-
-    .homehero {
-        padding: 50px;
-    }
-
-    .carousel-control-next2 {
-        margin-left: -20px;
-    }
-
-    .carousel-control-prev2 {
-        margin-left: -25px;
-    }
-
-    #col,
-    #coldiff {
-        width: 220px;
-        height: 260px;
-    }
-
-    .text8 {
-        font-size: 11px;
-        margin-left: -20px;
-    }
-
-    .text9,
-    .text10 {
-        font-size: 16px;
-    }
-
-    .image-container img {
-        width: 267px;
-        height: 291px;
-    }
-
-    .image-container img:hover {
-        width: 287px;
-        height: 311px;
-    }
-
-    .blogpill {
-        width: 55%;
+    .homehero_img1 {
+        margin-top: 0px;
     }
 }
 
 @media(max-width:992px) {
-    .text17 {
+    .appointment_form_data1 path,
+    .appointment_form_data2 path {
+        stroke: #017CC7;
+    }
+    .navbar-nav li a.active::before, .navbar-nav li a:hover::before {
+        width: 0%;
+    }
+
+    .appointment_form_sign2 {
+        position: absolute;
+        top: 14%;
+        left: 67%;
+    }
+
+    .appointment_form {
+        padding: 40px;
+    }
+
+    .appointment_form_input-group {
+        width: 100% !important;
+    }
+
+    .aboutus_hero img:nth-child(1) {
+        margin-top: -60px;
+    }
+
+    .aboutus_hero p {
+        font-size: 54px;
+    }
+
+    .contact_form {
+        border-radius: 16px;
+    }
+
+    .input-group,
+    #inputMessage {
+        width: 94%;
+    }
+
+    .contact_address_row {
+        row-gap: 24px;
+    }
+
+    .single_blog_latest a:nth-child(2) {
+        background: var(--Dark-Blue, #1C2434);
+        color: white;
+        border: none;
+    }
+    .single_blog_latest a:nth-child(2):hover{
+        background: var(--Dark-Blue, #1C2434) !important;
+    }
+    .single_blog_details span {
+        float: inline-start;
+        margin-block: -16px 8px;
+    }
+
+    .blogs nav {
+        margin-left: 23%;
+    }
+
+    .oculoplasty_book_subcontainer {
+        margin-top: 580px;
+    }
+
+    .oculoplasty_book_extra4,
+    .oculoplasty_book_extra1,
+    .oculoplasty_book_extra5 {
+        left: 4% !important;
+    }
+
+    .oculoplasty_book_extra9 {
+        width: 55%;
+        height: 500px;
+    }
+
+    .oculoplasty_book_extra7 {
+        left: 240px;
+    }
+
+    .oculoplasty_book_extra8 {
+        left: 12px;
+        bottom: -480px;
+    }
+
+    .oculoplasty_book_extra10 {
+        margin-top: 60px;
+    }
+
+    .oculoplasty_knowmore2 p:nth-child(1) {
+        color: var(--Dark-Blue, #1C2434);
         font-size: 24px;
+        font-weight: 600;
+        margin-top: 64px;
     }
 
-    ::placeholder,
-    .form-select,
-    .message::placeholder {
+    .oculoplasty_knowmore2 p:nth-child(2) {
+        color: var(--Dark-Gray, #64748B);
         font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
     }
 
-    .formone {
-        padding-right: 50px;
+    .oculoplasty_types {
+        margin-top: 64px;
     }
 
-    .formtwo {
-        padding-left: 30px;
+    .oculoplasty_img img {
+        height: 85%;
     }
 
-    ul.pagimain {
-        left: 35% !important;
+    .services_getintouch_img {
+        margin-top: 32px;
     }
 
-    .bookingimg {
-        margin-top: -100px;
+    .services_getintouch_img img:nth-child(2) {
+        right: 10%;
+        height: 124%;
+    }
+
+    .services_getintouch_img_sec1,
+    .services_getintouch_img_sec2 {
+        left: 10%;
+    }
+
+    .services_getintouch_subimg {
+        right: 5%;
+        height: 132%;
+        position: relative !important;
+    }
+
+    .services_getintouch_lorem p:nth-child(1) {
+        margin-top: 142px;
+    }
+
+    .aboutus_glimpse_slider {
+        margin-top: 10px;
+    }
+
+    .aboutus_container:hover::before {
+        left: 85px;
+    }
+
+    .aboutus_container:hover::after {
+        right: 85px;
+    }
+
+    .aboutus_approach_img1 {
+        margin-top: 49px;
+    }
+
+    .aboutus_workprocess_lorem {
+        margin-top: 0px;
+    }
+
+    .aboutus_workprocess_lorem>div {
+        margin-top: 54.06px;
+    }
+
+    .aboutus_welcome_img {
+        margin-top: 32px;
+    }
+
+    .footer_section {
+        margin-top: -38px;
+    }
+
+    .flyer {
+        text-align: center;
+        top: 160px;
+    }
+
+    .flyer div a {
+        margin-inline: auto;
+        margin-top: 18px;
+    }
+
+    .footer_col2,
+    .footer_col3,
+    .footer_col4 {
+        margin-top: 32px;
+    }
+
+    .footer_col1 img {
+        margin-top: 8px;
+    }
+
+    .footer_col2_data,
+    .footer_col3 p,
+    .footer_col4 div {
+        margin-top: 16px;
+    }
+
+    .footer_col4 div {
+        width: 35%;
+    }
+
+    .homeblogs {
+        margin-top: 64px;
+    }
+
+    .homeblogs_slider {
+        margin-top: 0px;
+        margin-left: 2%;
+    }
+
+    .carousel-control-prev8 {
+        top: 246px;
+        left: 270px;
+    }
+
+    .carousel-control-next8 {
+        top: 246px;
+        left: -340px;
+    }
+
+    .homeblogs_card {
+        margin-left: 40px;
+        width: 85%;
+    }
+
+    .faq {
+        margin-top: 152px;
+    }
+
+    .accordion {
+        margin-top: 32px;
+    }
+
+    .carousel-control-prev7 {
+        top: 178px;
+        left: 240px;
+    }
+
+    .carousel-control-next7 {
+        top: 175px;
+        left: -380px;
+    }
+
+    .number {
+        margin-top: 138px;
+    }
+
+    .number_svgone {
+        left: -230px;
+        top: -490px;
+    }
+
+    .number_data1 {
+        margin-top: -540px;
+        margin-bottom: 50px;
+        margin-left: -50px;
+    }
+
+    .number_data2 span:nth-child(3) {
+        width: 260px;
+    }
+
+    .number_data3 {
+        margin-top: -330px;
+        margin-left: -20px;
+        margin-bottom: 50px;
+    }
+
+    .number_data4 {
+        margin-left: 73px;
+    }
+
+    .number_data4 span:nth-child(3) {
+        width: 260px;
+    }
+
+    .number_svgtwo {
+        top: -190px;
+        right: -250px;
+    }
+
+    .number_svgmain {
+        margin-left: -100px;
+    }
+
+    .home_aboutus_img {
+        margin: 32px auto;
+    }
+
+    .home_aboutus_lorem {
+        margin-block: 0px;
+    }
+
+    .homeherolorem h1 {
+        margin-top: 32px;
+    }
+
+    .dropdown {
+        margin-left: 20px;
+        margin-top: -20px;
     }
 
     .accordionarrow {
         position: absolute;
-        left: 600px;
+        left: 595px;
     }
 
-    .facilitylorem {
-        margin-top: 100px;
-    }
-
-    .team {
-        width: 700px;
-    }
-
-    .flyer {
-        position: relative;
-        top: 100px;
-    }
-
-    .numberone {
-        position: relative;
-        top: -420px !important;
-        left: -80px;
-    }
-
-    .contactuspill {
+    .bookappointment_btn {
         display: none;
-    }
-
-    .mainservice {
-        margin-left: 60px;
     }
 
     .navbar-nav {
@@ -145,17 +681,6 @@
         box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
     }
 
-    .mobilemenu {
-        position: relative;
-        top: 20%;
-        width: 30%;
-        left: 9%;
-    }
-
-    .faqimg {
-        display: none;
-    }
-
     .text3,
     .text4 {
         position: relative;
@@ -163,444 +688,1941 @@
         justify-content: center;
     }
 
-    .faqsec svg {
-        margin: auto;
+    .carousel-control-prev5 {
+        top: 155px;
+        left: 240px;
     }
 
-    .blogs {
-        height: auto;
+    .carousel-control-next5 {
+        top: 155px;
+        left: -380px;
     }
 
-    .carousel-control-next2 {
-        margin-left: -20px;
+    .homeherolorem h1,
+    .homeherolorem p {
+        text-align: center;
     }
 
-    .aboutus {
-        display: block;
+    .contact_us_btn {
+        margin: 70px auto;
     }
 
-    .about {
-        display: none;
+    .homehero_img6 {
+        position: absolute;
+        left: 10%;
+        top: 5%;
     }
 
-    .jumbotron {
-        margin-top: 50px;
+    .homehero_img7 {
+        position: absolute;
+        right: 5%;
+        top: 45%;
     }
 
-    .number {
-        margin-top: 320px;
+    .homehero_img2 {
+        margin-inline: auto;
+        margin-top: 24px;
     }
 
-    .numbertwo {
-        margin-top: 150px;
-        margin-right: -200px;
+    .homehero_img3 {
+        position: absolute;
+        left: 25%;
+        top: 5%;
     }
 
-    .svgone,
-    .svgtwo {
-        display: none;
+    .homehero_img4 {
+        position: absolute;
+        left: 5%;
+        top: 50%;
     }
 
-    .text12 {
-        margin-top: 50px;
+    .homehero_img5 {
+        position: absolute;
+        right: 5%;
+        top: 25%;
     }
 
-    .medical {
-        margin-top: 550px;
+    .home_aboutus_section {
+        padding-block: 123px;
+        margin-top: 152px;
     }
 
-    .touchlorem {
-        margin-top: 50px;
+    .team_card {
+        height: 380px;
     }
 
-    .types {
-        margin-top: 50px;
+    .carousel-control-prev6 {
+        position: relative;
+        top: 175px;
+        left: 240px;
     }
 
-    .ocule {
-        margin-top: 50px;
+    .carousel-control-next6 {
+        position: relative;
+        top: 175px;
+        left: -380px;
     }
 
-    .touch {
-        margin-top: 50px;
+    .team_slider {
+        margin-left: 3%;
     }
 
-    .blogcard {
-        width: 100%;
-    }
-
-    .blogpill {
-        width: 30%;
-    }
-
-    .relatedblog {
-        margin-top: 50px !important;
-    }
-
-    .appointform {
-        margin-top: 50px;
-    }
-
-    .cardservices {
-        height: 90%;
+    .footer_row {
+        margin-top: 186px;
     }
 }
 
 @media(max-width:768px) {
-    .text35 {
-        font-size: 16px;
+    .appointment_form_sign2 {
+        top: 16.5%;
+        left: 72%;
     }
 
-    .text36 {
-        font-size: 12px;
+    .input-group,
+    #inputMessage {
+        width: 92%;
     }
 
-    .text33,
-    .text34 {
-        font-size: 12px;
+    .blogs nav {
+        margin-left: 14%;
     }
 
-    ul.pagimain {
-        left: 30% !important;
+    .oculoplasty_book_extra9 {
+        width: 42%;
     }
 
-    .bookingimg img {
-        height: 350px;
+    .oculoplasty_book_extra4 {
+        top: 100px !important;
+    }
+
+    .oculoplasty_book_extra1 {
+        top: 223px !important;
+    }
+
+    .oculoplasty_book_extra5 {
+        top: 346px !important;
+    }
+
+    .oculoplasty_book_extra7 {
+        left: 220px;
+    }
+
+    .services_getintouch_img_sec1 {
+        top: 150px;
+        left: 2%;
+    }
+
+    .services_getintouch_img_sec2 {
+        top: 273px;
+        left: 2%;
+    }
+    .services_getintouch_img_sec2_extra{
+        top: 396px;
+    }
+    .oculoplasty_book_extra5 {
+        top: 393px;
+    }
+
+    .services_getintouch_img img:nth-child(2) {
+        height: 154%;
+        width: 83%;
+        right: 5%;
+    }
+
+    .services_getintouch_lorem p:nth-child(1) {
+        margin-top: 204px;
+    }
+
+    .services_getintouch_subimg {
+        right: 0%;
+        height: 164%;
+        top: -2%;
+    }
+
+    .aboutus_container:hover::before {
+        left: 5px;
+    }
+
+    .aboutus_container:hover::after {
+        right: 5px;
+    }
+
+    .aboutus_approach_img3 img {
+        top: 0px;
+        left: 0px;
+    }
+
+    .flyer {
+        top: 180px;
+    }
+
+    .footer_row {
+        margin-top: 206px;
+    }
+
+    .footer_col4 div {
+        width: 42%;
+    }
+
+    .carousel-control-prev8 {
+        top: 255px;
+        left: 200px;
+    }
+
+    .carousel-control-next8 {
+        top: 253px;
+        left: -260px;
+    }
+
+    .rating_slider {
+        margin-top: 32px;
+        margin-left: 0%;
+    }
+
+    .rating p:nth-child(1) {
+        font-size: 2.29rem;
+    }
+
+    .carousel-control-prev6 {
+        top: 185px;
+        left: 150px;
+    }
+
+    .carousel-control-next6 {
+        top: 185px;
+        left: -290px;
+    }
+
+    .carousel-control-prev7 {
+        top: 163px;
+        left: 210px;
+    }
+
+    .carousel-control-next7 {
+        top: 160px;
+        left: -270px;
+    }
+
+    .team_card {
+        height: 400px;
+    }
+
+    .team_card div:nth-child(2) {
+        width: 81%;
+        height: 138px;
+        top: -70px
+    }
+
+    .trust_us_mainimg4,
+    .trust_us_mainimg3,
+    .trust_us_mainimg2,
+    .trust_us_mainimg1 {
+        height: 120px;
+    }
+
+    .trust_us_inside3_img2 {
+        margin-top: 10px;
+    }
+
+    .trust_us_inside1 img {
+        margin-top: 10px;
+    }
+
+    .trust_us_mainimg4 {
+        width: 520px;
+    }
+
+    .trust_us_mainimg3 {
+        width: 470px;
+    }
+
+    .trust_us_mainimg2 {
+        width: 420px;
+    }
+
+    .trust_us_mainimg1 {
+        width: 370px;
+    }
+
+    .homeservices_slider {
+        margin-left: 3%;
+    }
+
+    .carousel-control-prev5 {
+        top: 195px;
+        left: 160px;
+    }
+
+    .carousel-control-next5 {
+        top: 195px;
+        left: -290px;
     }
 
     .accordionarrow {
         position: absolute;
-        left: 450px;
+        left: 417px;
     }
 
-    .card-text {
-        font-size: 12px;
-    }
-
-    .card-title {
-        font-size: 18px;
-    }
-
-    .lead2 {
-        font-size: 16px;
-    }
-
-    .text26,
-    .text27 {
-        font-size: 16px;
-    }
-
-    .firstsec {
-        margin-top: 50px !important;
-    }
-
-    .mobilemenu {
-        position: relative;
-        top: 20%;
-        width: 55%;
-        left: 16%;
-    }
-
-    .carousel-control-next2 {
-        margin-left: -20px;
+    .rating_card {
+        width: 100%;
     }
 }
 
 @media(max-width:575px) {
-
-    .text21,
-    .text22,
-    .text23 {
-        font-size: 12px;
+    .input-group-text {
+        height: 36px;
+    }
+    .accordion {
+        margin-left: -2.5%;
+    }
+    .appointment_form_sign2 {
+        top: 11.5%;
+        left: 68%;
     }
 
-    .service {
-        width: 85%;
-        margin-left: 20px;
+    .appointment_form {
+        padding: 18px;
+        border-radius: 16px;
+        margin-top: 64px;
+        width: 95%;
     }
 
-    ::placeholder,
-    .form-select,
-    .message::placeholder {
-        font-size: 14px;
+    .appointment_form_img {
+        margin-left: 0px;
     }
 
-    ul.pagimain {
-        left: 25% !important;
+    .appointment_form_img p:nth-child(1) {
+        font-size: 20px;
+        font-weight: 500;
     }
 
-    .blogpill {
-        width: 40%;
-    }
-
-    .bookingimg img {
-        height: 250px;
-    }
-
-    .text32 {
-        font-size: 15px;
-    }
-
-    .accordion .accordion-button {
-        font-size: 18px;
-    }
-
-    .accordionarrow {
-        position: absolute;
-        left: 370px;
-    }
-
-    .teammain {
-        margin-left: -40px;
-    }
-
-    .ratingcard {
-        width: 89%;
-        position: relative;
-        left: -20px;
-    }
-
-    .cardclass img {
-        width: 40px;
-        height: 40px;
-    }
-
-    .lead3 {
+    .appointment_form_img p:nth-child(2) {
         font-size: 16px;
+        margin-block: 12px 8px;
     }
 
-    .text28,
-    .text29 {
-        text-align: left;
+    .appointment_form_data1 svg,
+    .appointment_form_data2 svg {
+        width: 10.672px;
+        height: 14px;
     }
 
-    .teammain>svg {
-        position: relative;
-        left: -290px;
+    .appointment_form_data1>span,
+    .appointment_form_data2>span {
+        font-size: 14px;
+        font-weight: 400;
+        margin-left: 4px;
     }
 
-    .text28 {
-        font-size: 26px;
-    }
-
-    .text29 {
-        font-size: 10px;
-    }
-
-    .trust {
-        gap: 50px;
-    }
-
-    .facilityimg7 {
-        width: 10px;
-    }
-
-    .facilityimg6 {
-        width: 30px;
-    }
-
-    .facilitysec1 {
-        margin-top: -30px;
-    }
-
-    .facilityimg4 {
-        width: 26px;
-        height: 26px;
-    }
-
-    .text26,
-    .text27 {
-        font-size: 12px;
-    }
-
-    svg.svgsix {
-        width: 320px;
-    }
-
-    #one {
-        width: 200px;
-    }
-
-    .mainservice {
-        margin-left: 20px;
-    }
-
-    .dropdown-item {
-        font-size: 12px;
-    }
-
-    .display-4 {
-        font-size: 32px;
-        text-align: center;
-    }
-
-    .lead1 {
-        font-size: 12px;
-        text-align: center;
-    }
-
-    .lead2 {
-        margin-left: 25%;
-    }
-
-    .carousel-control-next2 {
-        margin-left: -40px;
-    }
-
-    .carousel-control-prev2 {
-        margin-left: -5px;
-    }
-
-    .text9,
-    .text10 {
+    .appointment_form_img span span {
         font-size: 14px;
     }
 
-    .carousel-control-next3 {
-        margin-left: -450px;
+    .appointment_form_data2 {
+        margin-block: 2px 24px;
     }
 
-    .carousel-control-prev3 {
-        margin-left: 60px;
-        margin-top: -15px;
+    #appointment_inputMessage {
+        height: 124px;
     }
 
-    .team {
-        margin-left: 50px;
+    .form-check-input {
+        width: 14px;
+        height: 14px;
+        border-width: 1px;
+        margin-top: 1px;
     }
 
-    .carousel-control-prev {
-        margin-left: 10px;
+    .form-check-label {
+        font-size: 12px;
+        line-height: 16px;
+        margin-left: 0px;
     }
 
-    .carousel-control-next {
-        margin-right: 10px;
+    .appointment_form button {
+        padding: 6px 12px;
+        border-radius: 4px;
+        margin-bottom: 0px;
     }
 
-    .carousel-control-prev4 {
-        margin-left: 10px;
-        margin-top: -50px;
+    .form-check {
+        margin-block: 0px;
     }
 
-    .carousel-control-next4 {
-        margin-left: -20px;
-        margin-top: -50px;
+    .contact_form {
+        margin-top: 64px;
+        background-color: #F1F5F9;
+        padding: 18px;
+        width: 93.5%;
     }
 
-    .accordion .accordionarrow {
-        margin-left: -70px !important
+    .form-label {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 4px;
+        text-transform: none;
     }
 
-    .relatedblogpill {
-        font-size: 10px;
-        width: 60%;
-    }
-
-    .flyer {
-        position: relative;
-        top: 120px;
-    }
-}
-
-@media(max-width:375px) {
-    .lead2 {
-        margin-left: 10%;
-    }
-
-    .text33,
-    .text34 {
-        font-size: 10px;
+    .form-control,
+    .form-select {
+        height: 36px;
+        border-radius: 4px;
     }
 
     ::placeholder,
-    .form-select,
-    .message::placeholder {
+    .form-select {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    #inputMessage {
+        height: 120px;
+    }
+
+    .contact_form button {
+        padding: 6px 12px;
+        border-radius: 4px;
+        font-size: 14px;
+        font-weight: 500;
+        margin-block: 0px;
+    }
+
+    .contact_form_img {
+        padding-top: 0px;
+    }
+
+    .contact_form svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    .input-group,
+    #inputMessage {
+        width: 99%;
+    }
+
+    .single_blog_options div {
+        line-height: 20px;
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 16px;
+    }
+
+    .single_blog_options p:nth-child(2),
+    .single_blog_options p:nth-child(4),
+    .single_blog_options p:nth-child(6),
+    .single_blog_options p:nth-child(8) {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+    }
+
+    .single_blog_options p:nth-child(3),
+    .single_blog_options p:nth-child(5),
+    .single_blog_options p:nth-child(7),
+    .single_blog_options p:nth-child(9) {
+        font-size: 12px;
+        line-height: 16px;
+        margin-block: 8px 16px;
+    }
+
+    .single_blog_related_main {
+        border-radius: 16px;
+        background: var(--BG-Color, #F1F5F9);
+        padding: 20px 10px 16px 16px;
+        width: 94%;
+        margin-inline: auto;
+        margin-top: 16px;
+    }
+
+    .single_blog_related_main p:nth-child(1) {
+        font-size: 18px;
+        font-weight: 700;
+        margin-left: 4px;
+    }
+
+    .single_blog_related img {
+        width: 120px;
+    }
+
+    .single_blog_related_btn {
+        padding: 4px 10px;
         font-size: 10px;
+        font-weight: 500;
+        line-height: 14px;
+        border-width: 1px;
     }
 
-    ul.pagimain {
-        left: 10% !important;
-    }
-
-    .blogpill {
-        width: 50%;
-    }
-
-    .bookingimg img {
-        height: 150px;
-    }
-
-    .accordion .accordion-button {
+    .single_blog_related a:nth-child(2) {
         font-size: 14px;
     }
 
-    .accordionarrow {
-        position: absolute;
-        left: 320px;
+    .single_blog_related p:nth-child(3) {
+        display: none;
     }
 
-    .teammain>svg {
-        position: relative;
-        left: -270px;
+    .single_blog_related_details a {
+        font-size: 12px;
     }
 
-    .teammain {
-        margin-left: -90px;
+    .single_blog_related_row {
+        gap: 10px !important;
     }
 
-    .flyer {
-        position: relative;
-        top: 180px;
+    .single_blog_details p:nth-child(1) {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+        margin-top: 5px;
+    }
+
+    .single_blog_details span {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .single_blog_details p:nth-child(2) {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .single_blog {
+        margin-top: 64px;
+    }
+
+    .single_blog img {
+        height: 173px;
+        border-radius: 10px;
+    }
+
+    .single_blog a:nth-child(2) {
+        padding: 4px 10px;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 14px;
+        left: 16px;
+        top: -12px;
+    }
+
+    .blogs_card_details::before {
+        width: 68px;
+        bottom: 20px;
+        left: 16px;
     }
 
     .blogs {
-        width: 90%;
+        margin-top: 64px;
     }
 
-    .ratingcard {
-        width: 80%;
+    .blogs_card {
+        padding: 16px;
     }
 
-    .carousel-control-next {
-        margin-right: 22px;
+    .blogs_card img:nth-child(1) {
+        border-radius: 10px;
+        height: 162px;
     }
 
-    .carousel-control-prev {
-        margin-left: 20px;
-    }
-
-    .carousel-control-next4 {
-        margin-right: 22px;
-    }
-
-    .carousel-control-prev4 {
-        margin-left: 15px;
-    }
-
-    .facilitysubsec1 {
-        margin-top: -10px;
-    }
-
-    .facilityimg5 {
-        width: 45px;
-    }
-
-    .facilityimg4 {
-        width: 20px;
-        height: 20px;
-    }
-
-    .text26,
-    .text27 {
+    .blogs_card a:nth-child(2) {
+        padding: 4px 10px;
+        border-radius: 59px;
+        border-width: 1px;
         font-size: 10px;
+        font-weight: 500;
+        line-height: 14px;
+        margin: -12px 0px 5px 16px;
     }
 
-    .carousel-control-next3 {
-        margin-left: -480px;
+    .blogs_card p:nth-child(3),
+    .blogs_card p:nth-child(5) {
+        color: var(--Dark-Gray, #64748B);
+        font-size: 12px;
+    }
+
+    .blogs_card a:nth-child(4) {
+        font-size: 16px;
+        font-weight: 700;
+        margin-block: 8px;
+    }
+
+    .blogs_card_details a {
+        font-size: 14px;
+    }
+
+    .blogs_card svg:nth-child(7) {
+        bottom: 0px;
+        right: 0px;
+        width: 75px;
+        height: 75px;
+    }
+
+    .blogs_card_details {
+        margin-top: 16px;
+    }
+
+    .page-link {
+        height: 35px;
+        padding: 7px 12px;
+        font-size: 18px;
+        border-radius: 54px;
+        border: none;
+        box-shadow: none !important;
+    }
+
+    .page-link:focus {
+        background: var(--Dark-Blue, #1C2434);
+    }
+
+    .blogs_pagination {
+        column-gap: 8px;
         margin-top: 0px;
     }
 
-    .carousel-control-prev3 {
-        margin-left: 60px;
+    .blogs_pagination img {
+        margin-top: 5px;
+        width: 24px;
+        height: 24px;
+    }
+
+    .blogs nav {
+        margin-left: 30%;
+    }
+
+    .oculoplasty_book_extra4 {
+        top: 30px !important;
+    }
+
+    .oculoplasty_book_extra1 {
+        top: 80px !important;
+    }
+
+    .oculoplasty_book_extra5 {
+        top: 130px !important;
+    }
+
+    .oculoplasty_book_extra4,
+    .oculoplasty_book_extra1,
+    .oculoplasty_book_extra5 {
+        left: 5% !important;
+    }
+
+    .oculoplasty_book_extra7 {
+        left: 100px;
+    }
+
+    .oculoplasty_book_extra8 {
+        bottom: -180px;
+    }
+
+    .oculoplasty_book_details1 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        gap: 16px;
+    }
+
+    .oculoplasty_book_details2,
+    .oculoplasty_book_details2 span {
+        font-size: 12px;
+        gap: 16px;
+        font-weight: 400
+    }
+
+    .oculoplasty_book_details2 {
+        padding-right: 0px;
+        margin-left: 10px;
+    }
+
+    .oculoplasty_book a {
+        padding: 8px 16px;
+        border-radius: 4px;
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 18px;
+    }
+
+    .oculoplasty_book_subcontainer {
+        margin-top: 240px;
+    }
+
+    .oculoplasty_book {
+        margin-top: 64px;
+        padding-block: 32px;
+    }
+
+    .oculoplasty_book_extra9 {
+        width: 205.617px;
+        height: 224.784px;
+        top: -10px;
+    }
+
+    .oculoplasty_book_extra7 {
+        width: 55.822px;
+        height: 55.856px;
+    }
+
+    .oculoplasty_book_extra8 {
+        width: 8.585px;
+        height: 8.596px;
+    }
+
+    .oculoplasty_treatment {
+        margin-top: 24px;
+    }
+
+    .oculoplasty_treatment_text1 {
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .oculoplasty_treatment_text2 {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .oculoplasty_treatment_btn a {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 6px 28px 6px 29px;
+    }
+
+    .oculoplasty_treatment_btn {
+        margin-block: 24px 16px;
+    }
+
+    .oculoplasty_treatment img {
+        margin-top: 3px;
+    }
+
+    .oculoplasty_treatment p:nth-child(5),
+    .oculoplasty_treatment p:nth-child(7) {
+        margin-block: 24px 12px;
+    }
+
+    .oculoplasty_treatment p:nth-child(9) {
+        margin-block: 24px 12px;
+    }
+
+    .oculoplasty_types_section {
+        margin-top: 24px;
+    }
+
+    .oculoplasty_types div:nth-child(2) {
+        margin-top: 12px;
+    }
+
+    .oculoplasty_types p:nth-child(1) {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    .oculoplasty_types p:nth-child(2) {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 34px;
+    }
+
+    .oculoplasty_types img {
+        margin-top: 10px;
+    }
+
+    .oculoplasty_types {
+        margin-top: 24px;
+    }
+
+    .oculoplasty_types_img img {
+        width: 358px;
+        height: 199px;
+        border-radius: 16px;
+        margin-top: 24px;
+    }
+
+    .oculoplasty_knowmore2 p:nth-child(1) {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    .oculoplasty_knowmore2 p:nth-child(2) {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    .oculoplasty {
+        margin-top: 64px;
+    }
+
+    .oculoplasty_img img {
+        height: 253px;
+        width: 358px;
+    }
+
+    .oculoplasty_details1 p:nth-child(1),
+    .oculoplasty_details1 p:nth-child(3) {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .oculoplasty_details1 p:nth-child(2) {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        margin-top: 12px;
+    }
+
+    .oculoplasty_details1 p:nth-child(3) {
+        margin-top: 24px;
+    }
+
+    .oculoplasty_details1 p:nth-child(1) {
+        margin-top: 32px;
+    }
+
+    .oculoplasty_lorem_details2 {
+        margin-top: 12px;
+    }
+
+    .oculoplasty_lorem_details2 p {
+        font-size: 14px;
+        line-height: 34px;
+    }
+
+    .oculoplasty_lorem_details2 img {
+        margin-top: 12px;
+    }
+
+    .services_getintouch {
+        margin-top: 64px;
+    }
+
+    .services_getintouch_img_sec1,
+    .services_getintouch_img_sec2 {
+        width: 55%;
+        height: 42px;
+        border-radius: 6.665px;
+        border: 0.417px solid var(--Light-Gray, #E2E8F0);
+        box-shadow: 0px 2.499px 12.913px 0px rgba(15, 57, 83, 0.05);
+        left: 8.5%;
+    }
+
+    .services_getintouch_img_sec1 {
+        top: 90px;
+    }
+
+    .services_getintouch_img_sec2 {
+        top: 140px;
+    }
+    .services_getintouch_img_sec2_extra{
+        top: 190px;
+    }
+    .oculoplasty_book_extra5 {
+        top: 190px;
+    }
+
+    .services_getintouch_img_sec1 div:nth-child(1),
+    .services_getintouch_img_sec2 div:nth-child(1) {
+        width: 29px;
+        height: 29px;
+        border-radius: 4px;
+        margin: 6.27px 6px 6.73px 8px;
+    }
+
+    .services_getintouch_img_sec1 img,
+    .services_getintouch_img_sec2 img {
+        width: 19px;
+        height: 19px;
+    }
+
+    .services_getintouch_img_sec1 p:nth-child(1),
+    .services_getintouch_img_sec2 p:nth-child(1) {
+        font-size: 8px;
+    }
+
+    .services_getintouch_img_sec1 p:nth-child(2),
+    .services_getintouch_img_sec2 p:nth-child(2) {
+        font-size: 8px;
+        line-height: 9.997px;
+        margin-top: 5.53px;
+    }
+
+    .services_getintouch_subimg {
+        width: 50%;
+        height: 262px;
+        top: 2px;
+        right: 3%;
+    }
+
+    .services_getintouch_img img:nth-child(2) {
+        width:75%;
+        height: 242px;
+        right: 10%;
+    }
+
+    .services_getintouch_lorem p:nth-child(1) {
+        margin-top: 0px;
+    }
+
+    .services_getintouch_left {
+        margin-top: 32px;
+    }
+
+    .services_getintouch_lorem p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .services_getintouch_lorem p:nth-child(1) {
+        margin-block: 0px 8px;
+    }
+
+    .services_getintouch_lorem a {
+        padding: 8px 16px;
+        border-radius: 4px;
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 18px;
+    }
+
+    .services_getintouch_sign {
+        width: 43.036px;
+        height: 24.317px;
+        top: 20px;
+        margin-left: -5%;
+    }
+
+    .aboutus_glimpse {
+        margin-top: 64px;
+    }
+
+    .aboutus_container img {
+        width: 179px;
+        height: 190px;
+    }
+
+    .aboutus_container img:hover {
+        scale: 1.12;
+    }
+
+    .aboutus_container {
+        height: 250px
+    }
+
+    .aboutus_container:hover::before {
+        border: none;
+    }
+
+    .aboutus_container:hover::after {
+        border: none;
+    }
+
+    .aboutus_approach {
+        margin-top: 64px;
+        padding-block: 32px;
+    }
+
+    .aboutus_approach_img1 {
+        width: 95px;
+        height: 58px;
+        border-radius: 6px;
+        border-width: 0.431px;
+        opacity: 0.5;
+        box-shadow: 0px 2.586px 13.361px 0px rgba(15, 57, 83, 0.05);
+    }
+
+    .aboutus_approach_img1 p {
+        font-size: 10px;
+        margin-block: 8px 5px;
+    }
+
+    .aboutus_approach_img2 {
+        margin-top: -38px;
+        margin-left: 10px;
+    }
+
+    .aboutus_approach_img2 img {
+        width: 74.778px;
+        height: 24px;
+    }
+
+    .aboutus_approach_img2 p {
+        font-size: 7.758px;
+        line-height: 10.344px;
+        top: 12px;
+        left: 55px;
+    }
+
+    .aboutus_approach_img3 img {
+        top: -40px;
+        height: 318.93px;
+    }
+
+    .aboutus_approach_lorem p:nth-child(1) {
+        line-height: 24px;
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: -8px;
+    }
+
+    .aboutus_approach_lorem p:nth-child(2),
+    .aboutus_approach_lorem p:nth-child(4) {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .aboutus_approach_lorem p:nth-child(3),
+    .aboutus_approach_lorem p:nth-child(5) {
+        color: var(--Dark-Gray, #64748B);
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .aboutus_approach_lorem p:nth-child(2) {
+        margin-block: 18px 8px;
+    }
+
+    .aboutus_approach_lorem p:nth-child(4) {
+        margin-block: 24px 8px;
+    }
+
+    .aboutus_approach_lorem a {
+        padding: 8px 16px;
+        border-radius: 4px;
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 17px;
+    }
+
+    .aboutus_workprocess {
+        margin-top: 64px;
+        padding-block: 32px;
+    }
+
+    .aboutus_workprocess_lorem>div>p {
+        font-size: 12px;
+        line-height: 16px;
+        margin-top: 16px;
+    }
+
+    .aboutus_workprocess_lorem p:nth-child(2) {
+        font-size: 18px;
+        line-height: 24px;
+        margin-left: 8px;
+    }
+
+    .aboutus_workprocess_lorem2 {
+        margin-top: 16px;
+    }
+
+    .aboutus_workprocess_lorem>div {
+        margin-top: 18px;
+    }
+
+    .aboutus_workprocess_lorem {
+        margin-top: 14px;
+    }
+
+    .aboutus_workprocess_lorem>div>img {
+        width: 62px;
+        height: 54px;
+    }
+
+    .aboutus_workprocess_lorem2 img {
+        width: 12px;
+        height: 11.938px;
+        margin-top: 8px !important;
+    }
+
+    .aboutus_welcome {
+        margin-top: 64px;
+    }
+
+    .aboutus_welcome_lorem p:nth-child(1) {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        margin-top: 32px;
+    }
+
+    .aboutus_welcome_lorem p:nth-child(2),
+    .aboutus_welcome_lorem p:nth-child(3) {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .aboutus_welcome_lorem p:nth-child(2) {
+        margin-block: 12px 8px;
+    }
+
+    .aboutus_welcome_lorem a {
+        padding: 8px 16px;
+        border-radius: 4px;
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 18px;
+    }
+
+    .aboutus_welcome_img img {
+        width: 334.967px;
+        height: 314px;
+        margin-inline: auto;
+        display: block;
+    }
+
+    .footer_section {
+        margin-top: 3px;
+    }
+
+    .flyer {
+        padding: 16px 22px;
+        top: 80px;
+        width: 85%;
+    }
+
+    .flyer div h5 {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 20px;
+    }
+
+    .flyer div p {
+        color: var(--Dark-Gray, #64748B);
+        font-size: 12px;
+        line-height: 14px;
+        margin-top: 12px
+    }
+
+    .flyer div a {
+        padding: 8px 16px;
+        border-radius: 4px;
+        font-size: 16px;
+        height: 35px;
+        margin-top: 12px
+    }
+
+    .footer_row {
+        margin-top: 100px;
+        margin-bottom: 24px;
+    }
+
+    .footer_col1 h5,
+    .footer_col2 h5,
+    .footer_col3 h5,
+    .footer_col4 h5 {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px
+    }
+
+    .footer_svg3 {
+        margin-top: 4px;
+    }
+
+    .footer_col1 img {
+        width: 94px;
+        height: 46px;
+    }
+
+    .footer_col1 p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .footer_col2 a {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .footer_col2_data svg {
+        width: 8px;
+        height: 8px;
+    }
+
+    .footer_col2_data {
+        gap: 8px;
+    }
+
+    .footer_col2_data a {
+        margin-left: 8px;
+    }
+
+    .footer_col3 p {
+        font-size: 12px;
+    }
+
+    .footer_col3 a {
+        font-size: 14px;
+        margin-top: 2.36px;
+    }
+
+    .footer_col3 div svg {
+        margin-left: 11.15px;
+        width: 16px;
+        height: 16px;
+    }
+
+    .footer_col4 div {
+        font-size: 14px;
+        padding: 5px 23px 5px 24px;
+        width: fit-content;
+    }
+
+    .footer_col4 p {
+        font-size: 12px;
+        margin-top: 12px;
+    }
+
+    .disclaimer {
+        padding-top: 24px;
+        margin-bottom: 14px;
+    }
+
+    .disclaimer p {
+        font-size: 10px;
+        line-height: 14px;
+        text-align: center !important;
+    }
+
+    .disclaimer svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    .disclaimer>div {
+        margin-inline: auto;
+        margin-top: 24px;
+    }
+
+    .homeblogs_slider {
+        margin-left: -4%;
+    }
+
+    .homeblogs_card {
+        padding: 16px;
+        margin-left: 36px;
+        height: 355px;
+    }
+
+    .homeblogs_card img {
+        height: 180px;
+    }
+
+    .homeblogs_card h5 {
+        font-size: 16px;
+        line-height: 24px;
+        width: 100% !important;
+    }
+
+    .homeblogs_card p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .homeblogs_card a {
+        font-size: 14px;
+    }
+
+    .homeblogs_card svg {
+        margin-left: 7px;
+    }
+
+    .carousel-control-prev8 {
+        width: 23.5px;
+        height: 23.5px;
+        top: 187px;
+        left: 195px;
+    }
+
+    .carousel-control-next8 {
+        width: 32px;
+        height: 32px;
+        top: 186px;
+        left: -170px;
+    }
+
+    .accordion .accordion-button {
+        font-size: 0.875rem;
+        line-height: 24px;
+        padding: 0px;
+    }
+
+    .accordion-body {
+        font-size: 0.75rem;
+        line-height: normal;
+        padding-top: 0px;
+        padding: 8px 0px 0px;
+    }
+
+    .accordion .accordion-item {
+        border-radius: 12px;
+        margin-bottom: 18px;
+        padding: 12px;
+        width: 342px;
+        margin-inline: auto;
+    }
+
+    .accordionarrow {
+        position: absolute;
+        left: 306px;
+
+    }
+
+    .accordion-button .accordionarrow {
+        width: 16px;
+        height: 16px;
+    }
+
+    .rating {
+        margin-top: 64px;
+    }
+
+    .rating_slider {
+        margin-left: 9%;
+    }
+
+    .rating_card {
+        padding: 12px;
+        border-radius: 12px;
+        gap: 12px;
+        width: 90%;
+        height: 170px;
+    }
+
+    .rating_card span {
+        font-size: 1rem;
+        font-weight: 700;
+        margin-left: 15.613px;
+    }
+
+    .rating_card p {
+        font-size: 0.75rem;
+        line-height: 18px;
+    }
+
+    .rating_card svg {
+        width: 108px;
+        height: 20.355px;
+    }
+.rating_card img{
+    width: 32px;
+height: 32px;
+}
+    .carousel-control-prev7 {
+        width: 23px;
+        height: 23px;
+        top: 95px;
+        left: 140px;
+    }
+
+    .carousel-control-next7 {
+        width: 32px;
+        height: 32px;
+        left: -180px;
+        top: 94px
+    }
+
+    .number {
+        height: 468px;
+    }
+
+    .number_svgmain {
+        margin-left: -120px;
+        width: 822.625px;
+        height: 411px;
+        opacity: 0.5;
+        stroke-width: 0.562px;
+        margin-top: 32px;
+    }
+
+    .number_svgone {
+        width: 55.656px;
+        height: 55.656px;
+        left: -155px;
+        top: -429px;
+        stroke-width: 1.124px;
+    }
+
+    .number_data1 {
+        margin-top: -473px;
+        margin-bottom: 70px;
+        margin-inline: auto;
+    }
+
+    .number_data3 {
+        margin-top: -240px;
+        margin-bottom: 70px;
+        margin-inline: auto;
+    }
+
+    .number_data4 {
+        margin-inline: auto;
+        margin-bottom: 32px !important;
+    }
+
+    .number_data4 span:nth-child(3) {
+        width: min-content;
+        text-align: center;
+    }
+
+    .number_svgtwo {
+        width: 189.558px;
+        height: 89.558px;
+        top: -90px;
+        right: -165px;
+        opacity: 0.1;
+    }
+
+    .text6,
+    .text8,
+    .text9,
+    .text10,
+    .text11 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .text7 {
+        font-size: 1.125rem;
+        font-weight: 400;
+        line-height: 110.5%;
+        vertical-align: baseline;
+        display: flex !important;
+        flex-direction: column;
+        margin-top: 4px;
+        align-items: center;
+        margin: auto;
+    }
+
+    .team {
+        margin-top: 64px;
+    }
+
+    .team_slider {
+        margin-top: 32px;
+        margin-left: 4%;
+    }
+
+    .team_card div:nth-child(1) {
+        border-radius: 6px;
+        height: 161px;
+    }
+
+    .team_card div img {
+        width: 100px;
+        height: 100px;
+        width: 70%;
+    }
+
+    .team_card div:nth-child(2) {
+        border-radius: 8px;
+        margin-inline: 8px;
+        top: -30px;
+        width: 81%;
+        height: 58px;
+    }
+
+    .team_card div h5 {
+        font-size: 0.75rem;
+        line-height: 14px;
+    }
+
+    .team_card div p {
+        font-size: 0.625rem;
+        margin-top: 4px;
+        line-height: 12px;
+    }
+
+    .trust_us_lorem div:nth-child(3) {
+        margin-top: 18px;
+    }
+
+    .bookappointment_btntwo {
+        padding: 8px 16px;
+        border-radius: 4px;
+        font-size: 16px;
+        margin-top: 18px;
+    }
+
+    .trust_us_check svg {
+        width: 7.5px;
+        height: 5.25px;
+    }
+
+    .trust_us_check div {
+        height: 19px;
+        padding: 6px 5px;
+        border-radius: 42px;
+    }
+
+    .trust_us_inside1 {
+        top: 10px;
+        left: 9.82px;
+    }
+
+    .trust_us_inside1 img {
+        width: 21.411px;
+        height: 21.411px;
+        margin-top: 0px;
+        margin-left: 9.02px;
+    }
+
+    .trust_us_inside2 {
+        top: 10px;
+        left: 8.77px;
+    }
+
+    .trust_us_inside2 img {
+        width: 22.838px;
+        height: 22.838px;
+        margin-right: 5.14px;
+    }
+
+    .trust_us_inside3 {
+        top: 10px;
+        left: 11.47px;
+    }
+
+    .trust_us_inside3_img1 {
+        margin-top: 0px;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 11.895px;
+        height: 11.895px;
+    }
+
+    .trust_us_inside3_img2 {
+        width: 75.176px;
+        height: 26.645px;
+        margin-top: 0px;
+        margin-left: 6.17px;
+    }
+
+    .trust_us_inside4 {
+        top: 10px;
+        left: 13.32px;
+    }
+
+    .trust_us_inside4_img1 {
+        width: 26.169px;
+        height: 26.169px;
+        margin-right: 5px;
+    }
+
+    .trust_us_inside4_img2 {
+        width: 24.741px;
+        height: 24.741px;
+        margin-right: 5px;
+    }
+
+    .text1,
+    .text2 {
+        font-size: 0.75rem;
+    }
+
+    .trust_us_mainimg4,
+    .trust_us_mainimg3,
+    .trust_us_mainimg2,
+    .trust_us_mainimg1 {
+        height: 38px;
+    }
+
+    .trust_us_mainimg4 {
+        width: 342px;
+    }
+
+    .trust_us_mainimg3 {
+        width: 294px;
+    }
+
+    .trust_us_mainimg2 {
+        width: 246px;
+    }
+
+    .trust_us_mainimg1 {
+        width: 191px;
+    }
+
+    .trust_us {
+        margin-top: 64px;
+    }
+
+    .trust_us_main {
+        gap: 17px;
+        padding: 8.559px 18px 0px 0px;
+        margin: 32px auto;
+    }
+
+    .trust_us_check {
+        margin-top: 13px;
+    }
+
+    .trust_us_lorem {
+        margin-top: 0px;
+    }
+
+    .trust_us_lorem p:nth-child(1) {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        margin-bottom: 12px;
+    }
+
+    .trust_us_lorem p:nth-child(2),
+    .trust_us_check span {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .home_aboutus_lorem_data p:nth-child(1) {
+        font-size: 16px;
+        line-height: 24px;
+        width: 358px;
+        margin: 0px 0px 12px;
+    }
+
+    .home_aboutus_lorem_data p:nth-child(2),
+    .home_aboutus_lorem_data p:nth-child(3) {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .home_aboutus_lorem_data p:nth-child(2) {
+        margin-bottom: 8px;
+    }
+
+    .home_aboutus_img img {
+        width: 256px;
+        height: 242.997px;
+    }
+
+    .home_aboutus_img {
+        margin-bottom: 0px;
+    }
+
+    .home_aboutus_lorem {
+        margin-top: 32px;
+    }
+
+    .homeservices {
+        margin-top: 64px;
+    }
+
+    .text3 {
+        font-size: 1.25rem !important;
+    }
+
+    .text4 {
+        font-size: 0.75rem;
+        margin-top: 0px;
+    }
+
+    .commonheading_svg {
+        margin-top: 5px;
+        width: 24px;
+    }
+
+    .homeservices_slider {
+        margin-top: 32px;
+        margin-left: 4%;
+    }
+
+    .homeservice_card {
+        padding: 12px;
+        border-radius: 16px;
+        width: 95% !important;
+    }
+
+    .homeservice_card h5 {
+        font-size: 0.875rem;
+        margin-top: 4px;
+    }
+
+    .homeservice_card p {
+        font-size: 0.625rem;
+        line-height: 14px;
+        margin-top: 4px;
+    }
+
+    .homeservice_card img {
+        width: 44px;
+        height: 44px;
+    }
+
+    .carousel-control-prev5 {
+        width: 32px;
+        height: 32px;
+        top: 92px
+    }
+
+    .carousel-control-next5 {
+        width: 32px;
+        height: 32px;
+        left: -180px;
+        top: 92px
+    }
+
+    .carousel-control-prev6 {
+        width: 32px;
+        height: 32px;
+        left: 150px;
+        top: 92px
+    }
+
+    .carousel-control-next6 {
+        width: 32px;
+        height: 32px;
+        top: 92px;
+        left: -180px
+    }
+
+    .team_card {
+        height: 200px;
+    }
+
+    .homehero_svgone {
+        width: 22px;
+        height: 22px;
+    }
+
+    .arrowdown {
+        width: 54px;
+        height: 84px;
+        margin-top: -40px;
+    }
+
+    .arrowdown div {
+        width: 46px;
+        height: 76px;
+    }
+
+    .homehero_img5 {
+        right: 15%;
+        width: 28px;
+        height: 28px;
+    }
+
+    .homehero_img4 {
+        width: 7px;
+        height: 7px;
+        position: absolute;
+        left: 15%;
+    }
+
+    .homehero_img2 {
+        width: 285px;
+        height: 322px;
+    }
+
+    .homehero_img3 {
+        width: 7px;
+        height: 7px;
+        left: 30%;
+        top: 10%;
+    }
+
+    .homehero_img6 {
+        width: 7px;
+        height: 7px;
+        left: 20%;
+        top: 5%;
+    }
+
+    .homehero_img7 {
+        width: 5px;
+        height: 5px;
+        right: 10%;
+        top: 45%;
+    }
+
+    .contact_us_btn {
+        font-size: 16px;
+        margin: 20px auto;
+        padding: 8px 16px;
+        width: fit-content;
+        border-radius: 4px;
+    }
+
+    .homeherolorem h1 {
+        font-size: 32px;
+        text-align: center;
+        width: 253px;
+    }
+
+    .homeherolorem p {
+        font-size: 12px;
+        margin: 12px auto;
+        line-height: 14px;
+        width: 325px;
+    }
+
+    .header img {
+        width: 60px;
+        height: 30px;
+    }
+
+    .header {
+        margin-top: 36px;
+        margin-bottom: 8px;
+    }
+
+    .home_aboutus_section {
+        margin-top: 114px;
+        padding-block: 32px;
+    }
+
+    .number {
+        margin-top: 100px;
+    }
+
+    .faq {
+        margin-top: 114px;
+        padding-block: 32px;
+    }
+
+    .aboutus_hero a {
+        padding: 2px 14px;
+        font-size: 12px;
+        line-height: 24px;
+        top: -120px;
+    }
+
+    .aboutus_hero p {
+        font-size: 24px;
+        margin-top: -110px;
+    }
+
+    .aboutus_hero {
+        margin: auto
+    }
+
+    .aboutus_hero_img2 {
+        margin-left: -12px;
+    }
+
+    .aboutus_hero img:nth-child(1) {
+        width: 12px;
+        height: 12px;
+        margin-right: 9px;
+        margin-top: -20px;
+    }
+
+    .aboutus_hero img:nth-child(2) {
+        width: 12px;
+        height: 12px;
+        margin-left: 9px;
+        margin-bottom: -10px;
+    }
+
+    .aboutus_text3 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .aboutus_text4 {
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 0px;
+    }
+
+    .nav-link {
+        font-size: 14px;
+    }
+
+    .services_weoffer {
+        margin-top: 64px;
+    }
+
+    .services_weoffer_row {
+        margin-top: 32px;
+        row-gap: 18px;
+    }
+
+    .services_weoffer_card {
+        border-radius: 8px;
+    }
+
+    .services_weoffer_card img {
+        margin-top: 9.59px;
+        width: 72px;
+        height: 72px;
+    }
+
+    .services_weoffer_card h5 {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        margin-left: 12px;
+        margin-bottom: 4px;
+    }
+
+    .services_weoffer_card p {
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 12px;
+        margin-inline: 12px 1px;
+    }
+
+    .contact_address {
+        margin-top: 64px;
+    }
+
+    .contact_address_row {
+        margin-top: 32px;
+    }
+
+    .contact_address_card1 {
+        padding: 18px;
+    }
+
+    .contact_address_card2 {
+        padding: 20px;
+    }
+
+    .contact_address_card2 a {
+        padding: 4px 10px;
+        font-size: 10px;
+        line-height: 14px;
+        margin-bottom: 12px;
+    }
+
+    .contact_address_card2_data1 {
+        margin-top: 12px;
+    }
+
+    .contact_address_card2_data1 h5,
+    .contact_address_card2_data2 h5 {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 18px;
+    }
+
+    .contact_address_card2_data1 svg {
+        width: 10.671px;
+        height: 14px;
+    }
+
+    .contact_address_card2_data2 svg {
+        width: 14px;
+        height: 14px;
+    }
+
+    .contact_address_card2_data1 h5 {
+        margin: 0px 0px 4px 11.33px;
+    }
+
+    .contact_address_card2_data2 h5 {
+        margin: 0px 0px 4px 8px;
+    }
+
+    .contact_address_card2 p {
+        font-size: 12px;
+        line-height: 16px;
+        margin-left: 22px;
+    }
+
+    .contact_address_card2 p:nth-child(5) {
+        margin-block: 4px 12px;
     }
 }

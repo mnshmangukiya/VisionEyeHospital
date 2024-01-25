@@ -1,14 +1,13 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 export default function Navbar() {
     return (
         <div className="container header">
-            <nav class="navbar navbar-expand-md">
+            <nav class="navbar navbar-expand-lg d-flex">
                 <div class="col-lg-2 col-auto">
-                    <Link class="navbar-brand" to="/">
-                        <img src={require('../images/img1.png')} alt="" width="122" height="60" />
-                    </Link>
+                    <a class="navbar-brand" href="/">
+                        <img src={require('../images/img1.png')} className='img-fluid' alt="" width="122" height="60" />
+                    </a>
                 </div>
                 <div class="col-lg-7 col-auto">
                     <div>
@@ -19,42 +18,32 @@ export default function Navbar() {
                         </button>
                     </div>
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                        <ul class="navbar-nav gap-3 mx-auto">
+                        <ul class="navbar-nav mx-auto">
                             <li class="nav-item ">
-                                <Link class="nav-link" to="/">Home</Link>
+                                <a class="nav-link active" aria-current="page" href="/">Home</a>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link" to="/about">About Us</Link>
+                                <a class="nav-link" href="/about">About Us</a>
                             </li>
-                            <li class="nav-item dropdown mobilemenu">
-                                <Link class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Services
-                                </Link>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><Link class="dropdown-item" to="/services">All Services</Link></li>
-                                    <li><Link class="dropdown-item" to="/services/oculoplasty">Oculoplasty</Link></li>
-                                    <li><Link class="dropdown-item" to="/services/cataract">Cataract</Link></li>
-                                    <li><Link class="dropdown-item" to="/services/refractive">Refractive Procedures</Link></li>
-                                    <li><Link class="dropdown-item" to="/services/glaucoma">Glaucoma</Link></li>
-                                    <li><Link class="dropdown-item" to="/services/retina">Retina</Link></li>
-                                    <li><Link class="dropdown-item" to="/services/pediatric">Pediatric</Link></li>
-                                    <li><Link class="dropdown-item" to="/services/icl">Implantable Contact Lens</Link></li>
-                                    <li><Link class="dropdown-item" to="/services/cornea">Cornea</Link></li>
-                                </ul>
+                            <li class="nav-item d-flex">
+                                <a class="nav-link" href="/services">Services
+                                <svg  className='dropdownarrow' xmlns="http://www.w3.org/2000/svg" width="10" height="7" viewBox="0 0 10 7" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.209209 0.71967C0.488155 0.426777 0.940416 0.426777 1.21936 0.71967L5 4.68934L8.78064 0.71967C9.05958 0.426777 9.51184 0.426777 9.79079 0.71967C10.0697 1.01256 10.0697 1.48744 9.79079 1.78033L5.50508 6.28033C5.22613 6.57322 4.77387 6.57322 4.49492 6.28033L0.209209 1.78033C-0.0697365 1.48744 -0.0697365 1.01256 0.209209 0.71967Z" fill="#1C2434" />
+                                </svg></a>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link" to="/blogs">Blogs</Link>
+                                <a class="nav-link" href="/blogs">Blogs</a>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link" to="/contact">Contact Us</Link>
+                                <a class="nav-link" href="/contact">Contact Us</a>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-3 col-auto">
                     <div className='d-flex justify-content-end'>
-                        <Link type="button" class="contactuspill btn btn-primary px-4" to='/appoinment'>Book Appointment
-                        </Link>
+                        <a type="button" class="bookappointment_btn" href='/appointment'>Book Appointment
+                        </a>
                     </div>
                 </div>
             </nav>

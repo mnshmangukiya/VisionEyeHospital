@@ -1,98 +1,75 @@
 import React from 'react'
-import img30 from '../images/img30.png'
-import img32 from '../images/img32.png'
-import img33 from '../images/img33.png'
-import img76 from '../images/img76.png'
 import img26 from '../images/img26.png'
-import img83 from '../images/img83.png'
-import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
-import { Link } from 'react-router-dom'
+import Hero from './Hero'
+import Faq from './Faq'
 
 export default function Contactus() {
   return (
     <div>
       {/* hero section */}
-      <div class="container-fluid text-center" >
-        <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="340" viewBox="0 0 1920 340" fill="none">
-          <path d="M0 0H1920V260.132L0 340V0Z" fill="#F1F5F9" />
+      <Hero heading1='Get in touch' heading2='Contact Us' />
 
-          <foreignObject width="100%" height="100%">
-            <div>
-              <img src={img33} alt="Your Image" width='' height="" />
-            </div>
-          </foreignObject>
-        </svg>
-
-        <div className="container text-center">
-          <Link type="button" style={{ marginTop: -500, borderRadius: 30 }} class="px-4 py-2 btn btn-primary ms-auto" to='/contact'>
-            Get in touch
-          </Link>
-
-          <p className='text17 text-center' style={{ marginTop: -200 }}>
-            <img src={img32} alt="Your Image" width='' height="" style={{ marginTop: -60 }} />
-            Contact Us
-            <img src={img32} alt="Your Image" width='' height="" style={{ marginTop: 30, marginLeft: 10 }} />
-          </p>
-        </div>
-      </div>
-      <img className='img-fluid position-absolute d-lg-block d-none' src={img83} alt="" width={130} height={150} style={{marginTop:-50,right:0}}/>
+      <img className='img-fluid position-absolute d-lg-block d-none outerimg18' src={require('../images/img83.png')} alt="" width={130} height={150} />
 
       {/* address */}
-      <div className='container py-5 ' style={{ marginTop: 100 + 'px' }}>
-        <p className='text3 mx-auto d-block'>Get in touch with us today and  <span style={{ color: '#017CC7' }}>take good care of your eye  </span>with us. </p>
-        <p className='text4'>A cataract is a clouding of the lens inside </p>
-        <svg style={{ color: '#1C2434', margin: 'auto', display: 'block', marginBottom: 50 + 'px' }} xmlns="http://www.w3.org/2000/svg" width="47" height="4" viewBox="0 0 47 4" fill="none">
-          <path d="M45.5 2H1.5" stroke="#1C2434" stroke-width="3" stroke-linecap="round" />
-        </svg>
+      <div className='container contact_address'>
+        <div className='text-center'>
+          <p className='text3 mx-auto d-block'>Get in touch with us today and <span>take good care of your eye </span>with us.</p>
+          <p className='text4 '>A cataract is a clouding of the lens inside </p>
+          <svg className='commonheading_svg ' xmlns="http://www.w3.org/2000/svg" width="47" height="4" viewBox="0 0 47 4" fill="none">
+            <path d="M45.5 2H1.5" stroke="#1C2434" stroke-width="3" stroke-linecap="round" />
+          </svg>
+        </div>
 
-        <div class="row d-flex gap-4">
-          <div class="col-lg relatedblog p-3 "  >
-            <div class="card p-3">
-              <div class="card-body">
-                <a class="btn bg-primary text-light rounded-pill py-2 px-3 contactuspill mb-3" href='#' role="button">Parle Point Branch</a>
+        <div class="row contact_address_row">
+          <div class="col-lg">
+            <div className="card contact_address_card1">
+              <div class="card contact_address_card2">
+                <a>Parle Point Branch</a>
                 <hr />
-                <div className="d-flex gap-3">
+                <div className="d-flex contact_address_card2_data1">
                   <svg xmlns="http://www.w3.org/2000/svg" width="21" height="27" viewBox="0 0 21 27" fill="none">
                     <path d="M2.19141 26.1406H20.0485" stroke="#017CC7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                     <path d="M10.5246 14.2366C12.497 14.2366 14.096 12.6376 14.096 10.6652C14.096 8.69273 12.497 7.09375 10.5246 7.09375C8.55211 7.09375 6.95312 8.69273 6.95312 10.6652C6.95312 12.6376 8.55211 14.2366 10.5246 14.2366Z" stroke="#017CC7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                     <path d="M20.0476 10.756C20.0476 19.4099 10.5238 26.1406 10.5238 26.1406C10.5238 26.1406 1 19.4099 1 10.756C1 8.20585 2.0034 5.76014 3.78946 3.95691C5.57552 2.15367 7.99794 1.14063 10.5238 1.14062C13.0497 1.14063 15.4721 2.15367 17.2582 3.95691C19.0442 5.76014 20.0476 8.20585 20.0476 10.756V10.756Z" stroke="#017CC7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                   </svg>
-                  <h5 class="card-title">Location</h5>
+                  <h5>Location</h5>
                 </div>
-                <p class="card-text" style={{ marginLeft: 35 }}>3rd Floor , Union PointNear Kakadia Complex,Parle Point, Ghod Dod Road,Surat.</p>
-                <p class="card-text" style={{ marginLeft: 35 }}>Time : 9:30 AM to 6:00 PM</p>
-                <div className="d-flex gap-3">
+                <p>3rd Floor , Union PointNear Kakadia Complex,Parle Point, Ghod Dod Road,Surat.</p>
+                <p>Time : 9:30 AM to 6:00 PM</p>
+                <div className="d-flex contact_address_card2_data2">
                   <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27" fill="none">
                     <path d="M8.14619 13.6798C9.26674 15.9938 11.1379 17.8602 13.4548 18.9748C13.6257 19.0557 13.8147 19.0907 14.0033 19.0764C14.1918 19.0621 14.3734 18.9989 14.5301 18.8931L17.9331 16.6199C18.0834 16.518 18.2571 16.4558 18.438 16.4391C18.6189 16.4224 18.8011 16.4519 18.9676 16.5247L25.3379 19.2606C25.5556 19.3513 25.7375 19.5109 25.8555 19.7151C25.9736 19.9192 26.0213 20.1565 25.9912 20.3904C25.7893 21.9663 25.0201 23.4146 23.8276 24.4644C22.635 25.5141 21.1008 26.0934 19.512 26.0938C14.6023 26.0937 9.89373 24.1434 6.42205 20.6717C2.95037 17.2 1 12.4914 1 7.58172C1.00036 5.99295 1.57961 4.45875 2.62937 3.26618C3.67912 2.07362 5.12745 1.30442 6.70334 1.10251C6.93724 1.07247 7.17453 1.12015 7.37868 1.23821C7.58282 1.35627 7.7425 1.53816 7.83311 1.75588L10.5691 8.13981C10.6402 8.30362 10.67 8.48242 10.6558 8.66045C10.6415 8.83848 10.5837 9.01027 10.4874 9.16069L8.21424 12.6181C8.11304 12.7745 8.05364 12.9542 8.04173 13.1401C8.02981 13.326 8.06578 13.5118 8.14619 13.6798V13.6798Z" stroke="#017CC7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                   </svg>
-                  <h5 class="card-title">Phone</h5>
+                  <h5>Phone</h5>
                 </div>
-                <p class="card-text" style={{ marginLeft: 35 }}>+91 9909905212 / +91 9909905353</p>
+                <p>+91 9909905212 / +91 9909905353</p>
               </div>
             </div>
           </div>
-          <div class="col-lg relatedblog p-3">
-            <div class="card p-3">
-              <div class="card-body">
-                <a class="btn bg-primary text-light rounded-pill py-2 px-3 contactuspill mb-3" href='#' role="button">Parvat patiya Branch</a>
+
+          <div class="col-lg">
+            <div className="card contact_address_card1">
+              <div class="card contact_address_card2">
+                <a>Parvat patiya Branch</a>
                 <hr />
-                <div className="d-flex gap-3">
+                <div className="d-flex contact_address_card2_data1">
                   <svg xmlns="http://www.w3.org/2000/svg" width="21" height="27" viewBox="0 0 21 27" fill="none">
                     <path d="M2.19141 26.1406H20.0485" stroke="#017CC7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                     <path d="M10.5246 14.2366C12.497 14.2366 14.096 12.6376 14.096 10.6652C14.096 8.69273 12.497 7.09375 10.5246 7.09375C8.55211 7.09375 6.95312 8.69273 6.95312 10.6652C6.95312 12.6376 8.55211 14.2366 10.5246 14.2366Z" stroke="#017CC7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                     <path d="M20.0476 10.756C20.0476 19.4099 10.5238 26.1406 10.5238 26.1406C10.5238 26.1406 1 19.4099 1 10.756C1 8.20585 2.0034 5.76014 3.78946 3.95691C5.57552 2.15367 7.99794 1.14063 10.5238 1.14062C13.0497 1.14063 15.4721 2.15367 17.2582 3.95691C19.0442 5.76014 20.0476 8.20585 20.0476 10.756V10.756Z" stroke="#017CC7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                   </svg>
-                  <h5 class="card-title">Location</h5>
+                  <h5>Location</h5>
                 </div>
-                <p class="card-text" style={{ marginLeft: 35 }}>63, Karunesh Nagar Society,Above Ganesh Medical Store,Near, Cross Road Restaurant,Aai Mata Circle, Parvat PatiyaSurat.</p>
-                <p class="card-text" style={{ marginLeft: 35 }}>Time : 6:00 PM to 9:00 PM</p>
-                <div className="d-flex gap-3">
+                <p>63, Karunesh Nagar Society,Above Ganesh Medical Store,Near, Cross Road Restaurant,Aai Mata Circle, Parvat PatiyaSurat.</p>
+                <p>Time : 6:00 PM to 9:00 PM</p>
+                <div className="d-flex contact_address_card2_data2">
                   <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27" fill="none">
                     <path d="M8.14619 13.6798C9.26674 15.9938 11.1379 17.8602 13.4548 18.9748C13.6257 19.0557 13.8147 19.0907 14.0033 19.0764C14.1918 19.0621 14.3734 18.9989 14.5301 18.8931L17.9331 16.6199C18.0834 16.518 18.2571 16.4558 18.438 16.4391C18.6189 16.4224 18.8011 16.4519 18.9676 16.5247L25.3379 19.2606C25.5556 19.3513 25.7375 19.5109 25.8555 19.7151C25.9736 19.9192 26.0213 20.1565 25.9912 20.3904C25.7893 21.9663 25.0201 23.4146 23.8276 24.4644C22.635 25.5141 21.1008 26.0934 19.512 26.0938C14.6023 26.0937 9.89373 24.1434 6.42205 20.6717C2.95037 17.2 1 12.4914 1 7.58172C1.00036 5.99295 1.57961 4.45875 2.62937 3.26618C3.67912 2.07362 5.12745 1.30442 6.70334 1.10251C6.93724 1.07247 7.17453 1.12015 7.37868 1.23821C7.58282 1.35627 7.7425 1.53816 7.83311 1.75588L10.5691 8.13981C10.6402 8.30362 10.67 8.48242 10.6558 8.66045C10.6415 8.83848 10.5837 9.01027 10.4874 9.16069L8.21424 12.6181C8.11304 12.7745 8.05364 12.9542 8.04173 13.1401C8.02981 13.326 8.06578 13.5118 8.14619 13.6798V13.6798Z" stroke="#017CC7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                   </svg>
-                  <h5 class="card-title">Phone</h5>
+                  <h5>Phone</h5>
                 </div>
-                <p class="card-text" style={{ marginLeft: 35 }}>+91 9879209651</p>
+                <p>+91 9879209651</p>
               </div>
             </div>
           </div>
@@ -100,10 +77,11 @@ export default function Contactus() {
       </div>
 
       {/* form */}
-      <div class="container py-5 ps-5 pe-0 " style={{ marginTop: 100, backgroundColor: '#F1F5F9',borderRadius: 16 }}>
-        <div class="row formone">
+      <div class="container contact_form">
+        <div class="row">
           <div class="col-lg-7">
-            <form class="row g-5">
+            <form class="row gy-4">
+
               <div class="col-lg-6">
                 <label for="inputName" class="form-label">Full name *</label>
                 <div class="input-group">
@@ -156,115 +134,33 @@ export default function Contactus() {
                   </span>
                   <select id="inputSubject" class="form-select" >
                     <option selected >Subject of your Problem</option>
-                    <option>Subject1</option>
-                    <option>Subject2</option>
-                    <option>Subject3</option>
                   </select>
                 </div>
               </div>
 
               <div class="col-12">
                 <label for="inputMessage" class="form-label">Message</label>
-                <input type="text" class="form-control message" placeholder='Hello there,I would like to talk about how to...' id='inputMessage' />
+                <input type="text" class="form-control" placeholder='Hello there,I would like to talk about how to...' id='inputMessage' />
               </div>
 
-              <div class="col-12">
-                <button type="submit" class="btn btn-primary px-4 py-2">Send Message</button>
+              <div>
+                <button type="submit">Send Message</button>
               </div>
             </form>
           </div>
-          <div class="col-lg-5">
-            <img src={img76} alt='' className='img-fluid d-lg-block d-none w-100 h-100' />
+          <div class="col-lg-5 contact_form_img">
+            <img src={require('../images/img76.png')} alt='' className='d-lg-block d-none w-100 h-100'/>
           </div>
         </div>
       </div >
-      <img className='img-fluid position-absolute d-lg-block d-none' src={img30} alt="" width={170} height={250} style={{marginTop:-150,left:0}}/>
+      <img className='img-fluid position-absolute d-lg-block d-none outerimg19' src={require('../images/img30.png')} alt="" width={170} height={250}/>
 
       {/* faq */}
-      <div class="container-fluid faqsec" style={{ marginTop: 100, backgroundColor: '#F1F5F9' }}>
-        <div className="container">
-          <div className="aboutus ">
-            <p className='text3 mx-auto d-block text-center' style={{ textAlign: 'start' }}>Frequently Asked <span style={{ color: '#017CC7' }}> Questions</span></p>
-            <p className='text4 mb-5' style={{ textAlign: 'start' }}>A cataract is a clouding of the lens inside </p>
-            <svg style={{ color: '#1C2434', display: 'block', marginTop: -25, marginBottom: 10 }} xmlns="http://www.w3.org/2000/svg" width="47" height="4" viewBox="0 0 47 4" fill="none">
-              <path d="M45.5 2H1.5" stroke="#1C2434" stroke-width="3" stroke-linecap="round" />
-            </svg>
-          </div>
-          <div class="row">
-            <div class="col-lg-6 text-center ">
-              <div className="about">
-                <p className='text3 ' style={{ textAlign: 'start' }}>Frequently Asked <span style={{ color: '#017CC7' }}> Questions</span></p>
-                <p className='text4 mb-5' style={{ textAlign: 'start' }}>A cataract is a clouding of the lens inside </p>
-                <svg style={{ color: '#1C2434', display: 'block', marginTop: -25, marginBottom: 10 }} xmlns="http://www.w3.org/2000/svg" width="47" height="4" viewBox="0 0 47 4" fill="none">
-                  <path d="M45.5 2H1.5" stroke="#1C2434" stroke-width="3" stroke-linecap="round" />
-                </svg>
-              </div>
-              <div className='faqimg'>
-                <img className='img-fluid' src={img26} alt="" />
-              </div>
-            </div>
-            <div class="col-lg-6 my-auto">
-              <div class="accordion accordion-flush" id="accordionFlushExample">
-                <div class="accordion-item mx-auto">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
-                      What Facilities you providing?
-                      <KeyboardArrowUpIcon sx={{ fontSize: 30 }} className='accordionarrow' />
-                    </button>
-                  </h2>
-                  <div id="flush-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, unknown printer  Lorem Ipsum has been team at Vision brings to me. Consistently deliver great results.</div>
-                  </div>
-                </div>
-                <div class="accordion-item mx-auto">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsetwo" aria-expanded="false" aria-controls="flush-collapsetwo">
-                      How can i book appointment?
-                      <KeyboardArrowUpIcon sx={{ fontSize: 30 }} className='accordionarrow' />
-                    </button>
-                  </h2>
-                  <div id="flush-collapsetwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, unknown printer  Lorem Ipsum has been team at Vision brings to me. Consistently deliver great results.</div>
-                  </div>
-                </div>
-                <div class="accordion-item mx-auto">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsethree" aria-expanded="false" aria-controls="flush-collapseOne">
-                      How can i consult doctor online?
-                      <KeyboardArrowUpIcon sx={{ fontSize: 30 }} className='accordionarrow' />
-                    </button>
-                  </h2>
-                  <div id="flush-collapsethree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, unknown printer  Lorem Ipsum has been team at Vision brings to me. Consistently deliver great results.</div>
-                  </div>
-                </div>
-                <div class="accordion-item mx-auto">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapsefour">
-                      How much will cost for test?
-                      <KeyboardArrowUpIcon sx={{ fontSize: 30 }} className='accordionarrow' />
-                    </button>
-                  </h2>
-                  <div id="flush-collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, unknown printer  Lorem Ipsum has been team at Vision brings to me. Consistently deliver great results.</div>
-                  </div>
-                </div>
-                <div class="accordion-item mx-auto">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefive" aria-expanded="false" aria-controls="flush-collapsefive">
-                      How much will cost for test?
-                      <KeyboardArrowUpIcon sx={{ fontSize: 30 }} className='accordionarrow' />
-                    </button>
-                  </h2>
-                  <div id="flush-collapsefive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, unknown printer  Lorem Ipsum has been team at Vision brings to me. Consistently deliver great results.</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Faq image={img26}/>
     </div >
   )
 }
+
+
+
+

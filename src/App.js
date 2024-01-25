@@ -27,7 +27,7 @@ function App() {
           <Route path="/blogs" element={<Blogs/>} />
           <Route path="/singleblog" element={<Singleblog/>} />
           <Route path="/contact" element={<Contactus/>} />
-          <Route path="/appoinment" element={<Appoinment/>} />
+          <Route path="/appointment" element={<Appoinment/>} />
         </Routes>
         <Footer />
       </BrowserRouter>
