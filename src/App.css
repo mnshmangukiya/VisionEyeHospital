@@ -173,13 +173,13 @@
 .carousel-control-prev5 {
     position: relative;
     bottom: 80px;
-    left: -60px;
+    left: -70px;
 }
 
 .carousel-control-next5 {
     position: relative;
     top: -80px;
-    left: -90px;
+    left: -70px;
 }
 
 .homeservice_card:hover {
