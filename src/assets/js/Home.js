@@ -54,7 +54,7 @@ export default function Home() {
         slidesToShow: 4,
         slidesToScroll: 1,
         initialSlide: 0,
-        prevArrow: <div><svg className='carousel-control-prev5' xmlns="http://www.w3.org/2000/svg" width="132" height="132" viewBox="0 0 132 132" fill="none">
+        prevArrow: <svg xmlns="http://www.w3.org/2000/svg" width="132" height="132" viewBox="0 0 132 132" fill="none">
             <g filter="url(#filter0_d_250_684)">
                 <circle cx="35" cy="35" r="35" transform="matrix(-1 0 0 1 101 25)" fill="white" />
                 <path d="M69 49L59 60L69 71" stroke="#017CC7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
@@ -71,8 +71,8 @@ export default function Home() {
                     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_250_684" result="shape" />
                 </filter>
             </defs>
-        </svg></div>,
-        nextArrow: <div><svg className='carousel-control-next5' xmlns="http://www.w3.org/2000/svg" width="132" height="132" viewBox="0 0 132 132" fill="none">
+        </svg>,
+        nextArrow: <svg xmlns="http://www.w3.org/2000/svg" width="132" height="132" viewBox="0 0 132 132" fill="none">
             <g filter="url(#filter0_d_250_680)">
                 <circle cx="35" cy="35" r="35" transform="matrix(1 -8.74228e-08 -8.74228e-08 -1 31 95)" fill="#017CC7" />
                 <circle cx="35" cy="35" r="34.75" transform="matrix(1 -8.74228e-08 -8.74228e-08 -1 31 95)" stroke="#017CC7" stroke-width="0.5" />
@@ -90,7 +90,7 @@ export default function Home() {
                     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_250_680" result="shape" />
                 </filter>
             </defs>
-        </svg></div>,
+        </svg>,
         responsive: [
             {
                 breakpoint: 992,

@@ -405,7 +405,7 @@
     box-shadow: 0px 6px 31px 0px rgba(15, 57, 83, 0.05);
     margin-inline: 11px;
     display: flex;
-    height: 96px;
+    height: 94px;
     justify-content: center;
     text-align: center;
     position: relative;
@@ -428,7 +428,7 @@
 }
 
 .team_card div:nth-child(1):hover {
-    background-color: #D9F1FF;
+    background: #D9F1FF url('./assets/images/img93.png') no-repeat;
 }
 
 .team_card div img:hover {
@@ -1064,7 +1064,6 @@
     border-radius: 16px;
     width: 377px;
     height: 401px;
-    z-index: 1;
 }
 
 .aboutus_container img:hover {
@@ -1080,23 +1079,20 @@
     width: 90%;
     border: none;
     margin-left: 5%;
-
 }
 
-.aboutus_container:hover::before {
+.aboutus_container div:hover::before {
     content: '';
     position: absolute;
     border-left: 5px solid #017CC7;
     border-top: 5px solid #017CC7;
     width: 150px;
     height: 150px;
-    top: 8px;
+    top: 7px;
     left: -16px;
-    border-radius: 24px;
-    z-index: 0;
+    border-top-left-radius: 24px;
 }
-
-.aboutus_container:hover::after {
+.aboutus_container div:hover::after {
     content: '';
     position: absolute;
     border-right: 5px solid #017CC7;
@@ -1105,8 +1101,29 @@
     height: 150px;
     top: 8px;
     right: -16px;
-    border-radius: 24px;
-    z-index: 0;
+    border-top-right-radius: 24px;
+}
+.aboutus_container p:hover::before {
+    content: '';
+    position: absolute;
+    border-left: 5px solid #017CC7;
+    border-bottom: 5px solid #017CC7;
+    width: 150px;
+    height: 150px;
+    bottom: 7px;
+    left: -16px;
+    border-bottom-left-radius: 24px;
+}
+.aboutus_container p:hover::after {
+    content: '';
+    position: absolute;
+    border-right: 5px solid #017CC7;
+    border-bottom: 5px solid #017CC7;
+    width: 150px;
+    height: 150px;
+    bottom: 8px;
+    right: -16px;
+    border-bottom-right-radius: 24px;
 }
 
 /*Our Medical Approach*/
@@ -1336,10 +1353,6 @@
 
 .services_getintouch_img_sec2_extra {
     top: 446px;
-}
-
-.oculoplasty_book_extra5 {
-    top: 443px;
 }
 
 .services_getintouch_img_sec1 div:nth-child(1),
@@ -1638,23 +1651,22 @@
     color: var(--Dark-Gray, #64748B) !important;
 }
 
-.oculoplasty_book_extra4 {
-    left: -90px;
-    top: 100px;
+.oculoplasty_book_extra4,.oculoplasty_book_extra1,.oculoplasty_book_extra5 {
+    left: -14%;
 }
 
 .oculoplasty_book_extra1,
 .oculoplasty_book_extra5 {
     background: var(--Blue-Secondary, #D9F1FF);
 }
-
+.oculoplasty_book_extra4{
+    top: 100px;
+}
 .oculoplasty_book_extra1 {
-    left: -90px;
     top: 223px;
 }
 
 .oculoplasty_book_extra5 {
-    left: -90px;
     top: 346px;
 }
 

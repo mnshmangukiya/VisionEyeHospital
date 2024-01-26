@@ -11,12 +11,16 @@
         height: 85%;
     }
 
-    .aboutus_container:hover::before {
-        left: -36px;
+    .aboutus_container div:hover::before,
+    .aboutus_container p:hover::before {
+        left: -36.5px;
     }
-
-    .aboutus_container:hover::after {
-        right: -37px;
+    .aboutus_container div:hover::before{
+        top: 8px;
+    }
+    .aboutus_container div:hover::after,
+    .aboutus_container p:hover::after {
+        right: -36.5px;
     }
 
     .aboutus_container {
@@ -59,7 +63,7 @@
     .oculoplasty_book_extra1,
     .oculoplasty_book_extra4,
     .oculoplasty_book_extra5 {
-        left: -40px !important;
+        left: -8% !important;
     }
 
     .oculoplasty_book_extra8 {
@@ -79,12 +83,18 @@
         left: 8%;
     }
 
-    .aboutus_container:hover::before {
+    .aboutus_container div:hover::before,
+    .aboutus_container p:hover::before {
         left: -32px;
+        width: 120px;
+    height: 120px;
     }
 
-    .aboutus_container:hover::after {
+    .aboutus_container div:hover::after,
+    .aboutus_container p:hover::after {
         right: -32px;
+        width: 120px;
+    height: 120px;
     }
 
     .aboutus_container {
@@ -166,6 +176,7 @@
     .carousel-control-prev8 {
         left: -30px;
     }
+
     .appointment_form_sign {
         top: 12%;
         left: 27%;
@@ -186,7 +197,7 @@
     .oculoplasty_book_extra1,
     .oculoplasty_book_extra4,
     .oculoplasty_book_extra5 {
-        left: -40px !important;
+        left: -8% !important;
         margin-top: 50px;
     }
 
@@ -230,12 +241,18 @@
         left: 5%;
     }
 
-    .aboutus_container:hover::before {
-        left: -27px;
+    .aboutus_container div:hover::before,
+    .aboutus_container p:hover::before {
+        left: -28px;
+        width: 100px;
+    height: 100px;
     }
 
-    .aboutus_container:hover::after {
-        right: -27px;
+    .aboutus_container div:hover::after,
+    .aboutus_container p:hover::after {
+        right: -28px;
+        width: 100px;
+    height: 100px;
     }
 
     .aboutus_container {
@@ -344,8 +361,6 @@
     }
 
     .carousel-control-next5 {
-        position: relative;
-        top: -80px;
         left: -80px;
     }
 
@@ -365,11 +380,14 @@
 }
 
 @media(max-width:992px) {
+
     .appointment_form_data1 path,
     .appointment_form_data2 path {
         stroke: #017CC7;
     }
-    .navbar-nav li a.active::before, .navbar-nav li a:hover::before {
+
+    .navbar-nav li a.active::before,
+    .navbar-nav li a:hover::before {
         width: 0%;
     }
 
@@ -413,9 +431,11 @@
         color: white;
         border: none;
     }
-    .single_blog_latest a:nth-child(2):hover{
+
+    .single_blog_latest a:nth-child(2):hover {
         background: var(--Dark-Blue, #1C2434) !important;
     }
+
     .single_blog_details span {
         float: inline-start;
         margin-block: -16px 8px;
@@ -503,11 +523,13 @@
         margin-top: 10px;
     }
 
-    .aboutus_container:hover::before {
+    .aboutus_container div:hover::before,
+    .aboutus_container p:hover::before {
         left: 85px;
     }
 
-    .aboutus_container:hover::after {
+    .aboutus_container div:hover::after,
+    .aboutus_container p:hover::after {
         right: 85px;
     }
 
@@ -816,9 +838,11 @@
         top: 273px;
         left: 2%;
     }
-    .services_getintouch_img_sec2_extra{
+
+    .services_getintouch_img_sec2_extra {
         top: 396px;
     }
+
     .oculoplasty_book_extra5 {
         top: 393px;
     }
@@ -839,12 +863,14 @@
         top: -2%;
     }
 
-    .aboutus_container:hover::before {
-        left: 5px;
+    .aboutus_container div:hover::before,
+    .aboutus_container p:hover::before {
+        left: 4px;
     }
 
-    .aboutus_container:hover::after {
-        right: 5px;
+    .aboutus_container div:hover::after,
+    .aboutus_container p:hover::after {
+        right: 4px;
     }
 
     .aboutus_approach_img3 img {
@@ -972,9 +998,11 @@
     .input-group-text {
         height: 36px;
     }
+
     .accordion {
         margin-left: -2.5%;
     }
+
     .appointment_form_sign2 {
         top: 11.5%;
         left: 68%;
@@ -1352,8 +1380,8 @@
     }
 
     .oculoplasty_book_extra9 {
-        width: 205.617px;
-        height: 224.784px;
+        width: 55%;
+        height: 210px;
         top: -10px;
     }
 
@@ -1514,9 +1542,11 @@
     .services_getintouch_img_sec2 {
         top: 140px;
     }
-    .services_getintouch_img_sec2_extra{
+
+    .services_getintouch_img_sec2_extra {
         top: 190px;
     }
+
     .oculoplasty_book_extra5 {
         top: 190px;
     }
@@ -1555,7 +1585,7 @@
     }
 
     .services_getintouch_img img:nth-child(2) {
-        width:75%;
+        width: 75%;
         height: 242px;
         right: 10%;
     }
@@ -1606,16 +1636,57 @@
     }
 
     .aboutus_container {
-        height: 250px
+        height: 220px
     }
 
-    .aboutus_container:hover::before {
-        border: none;
+    .aboutus_container div:hover::before {
+        border-left: 2px solid #017CC7;
+        border-top: 2px solid #017CC7;
+        width: 60px;
+        height: 60px;
+        top: 111.5px;
+        left: -12.2px;
+        border-top-left-radius: 19px;
+        position: relative !important;
+        display: inline-block;
     }
 
-    .aboutus_container:hover::after {
-        border: none;
+    .aboutus_container div:hover::after {
+        border-right: 2px solid #017CC7;
+        border-top: 2px solid #017CC7;
+        width: 60px;
+        height: 60px;
+        top: -263px;
+        left: 131.5px;
+        border-top-right-radius: 19px;
+        position: relative !important;
+        display: inline-block;
     }
+
+    .aboutus_container p:hover::before {
+        border-left: 2px solid #017CC7;
+        border-bottom: 2px solid #017CC7;
+        width: 60px;
+        height: 60px;
+        bottom: -203px;
+        left: -12.2px;
+        border-bottom-left-radius: 19px;
+        position: relative!important;
+        display: block;
+    }
+
+    .aboutus_container p:hover::after {
+        border-right: 2px solid #017CC7;
+        border-bottom: 2px solid #017CC7;
+        width: 60px;
+        height: 60px;
+        bottom: 47px;
+        right: -131.5px;
+        border-bottom-right-radius: 19px;
+        position: relative!important;
+        display: block;
+    }
+
 
     .aboutus_approach {
         margin-top: 64px;
@@ -2004,10 +2075,12 @@
         width: 108px;
         height: 20.355px;
     }
-.rating_card img{
-    width: 32px;
-height: 32px;
-}
+
+    .rating_card img {
+        width: 32px;
+        height: 32px;
+    }
+
     .carousel-control-prev7 {
         width: 23px;
         height: 23px;
@@ -2360,7 +2433,7 @@ height: 32px;
         width: 32px;
         height: 32px;
         left: -180px;
-        top: 92px
+        top: 92px;
     }
 
     .carousel-control-prev6 {

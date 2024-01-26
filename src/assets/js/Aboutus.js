@@ -9,8 +9,8 @@ export default function Aboutus() {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 3000,
-    autoplaySpeed: 2000,
+    speed: 5000,
+    autoplaySpeed: 3000,
     cssEase: "linear",
     responsive: [
       {
@@ -27,7 +27,7 @@ export default function Aboutus() {
   return (
     <div>
       {/* hero section */}
-      <Hero heading1='Know who we are' heading2='About Us'/>
+      <Hero heading1='Know who we are' heading2='About Us' />
 
       <img className='outerimg4 img-fluid position-absolute d-lg-block d-none' src={require('../images/img83.png')} alt="" width={100} height={100} />
 
@@ -139,30 +139,55 @@ export default function Aboutus() {
         <div className='aboutus_glimpse_slider'>
           <Slider {...settings9}>
             <div>
-              <div class="card aboutus_container">
-                <img src={require('../images/img35.png')} alt="Your Image" className='img-fluid'/>
+              <div class="aboutus_container">
+                <div>
+                  <p>
+                    <img src={require('../images/img35.png')} alt="Your Image" className='img-fluid' />
+                  </p>
+                </div>
               </div>
             </div>
+
             <div>
-              <div class="card aboutus_container">
-                <img src={require('../images/img36.png')} alt="Your Image" className='img-fluid'/>
+              <div class="aboutus_container">
+                <div>
+                  <p>
+                    <img src={require('../images/img36.png')} alt="Your Image" className='img-fluid' />
+                  </p>
+                </div>
               </div>
             </div>
+
             <div>
-              <div class="card aboutus_container">
-                <img src={require('../images/img37.png')} alt="Your Image" className='img-fluid'/>
+              <div class="aboutus_container">
+                <div>
+                  <p>
+                    <img src={require('../images/img37.png')} alt="Your Image" className='img-fluid' />
+                  </p>
+                </div>
               </div>
             </div>
+
             <div>
-              <div class="card aboutus_container">
-                <img src={require('../images/img38.png')} alt="Your Image" className='img-fluid'/>
+              <div class="aboutus_container">
+                <div>
+                  <p>
+                    <img src={require('../images/img38.png')} alt="Your Image" className='img-fluid' />
+                  </p>
+                </div>
               </div>
             </div>
+
             <div>
-              <div class="card aboutus_container">
-                <img src={require('../images/img39.png')} alt="Your Image" className='img-fluid'/>
+              <div class="aboutus_container">
+                <div>
+                  <p>
+                    <img src={require('../images/img39.png')} alt="Your Image" className='img-fluid' />
+                  </p>
+                </div>
               </div>
             </div>
+
           </Slider>
         </div>
       </div>
